@@ -27,21 +27,21 @@ right_motor_2 = Pin(7, Pin.OUT)
 
 speed_left  = PWM(Pin(8))
 speed_right = PWM(Pin(9))
-speed_left.freq(1000)
-speed_right.freq(1000)
+speed_left.freq(1000)           # frekvencija PWM signala (1 kHz je dobar izbor za motore)
+speed_right.freq(1000)          # jer prevelika frekvencija može uzrokovati pregrijavanje motora, a premala može uzrokovati zujanje i neefikasno upravljanje brzinom
 
-PRAG = 30000  # podesi eksperimentalno (0-65535)
+PRAG = 40000  # podesi eksperimentalno (0-65535) - vrijednost iznad koje se smatra da je prepreka detektirana
 
 def mux_odaberi(kanal):
     # kanal 0-3 za 4 fototranzistora
     mux_s[0].value((kanal >> 0) & 1)
     mux_s[1].value((kanal >> 1) & 1)
-    mux_s[2].value(0)  # treći bit = 0 za kanale 0-3
+    mux_s[2].value((kanal >> 2) & 1)  # treći bit = 0 za kanale 0-3
 
 def citaj_senzor(kanal):
     mux_odaberi(kanal)
-    time.sleep_us(50)  # kratka pauza da se MUX stabilizira
-    return adc.read_u16()
+    time.sleep_us(50)           # kratka pauza da se MUX stabilizira
+    return adc.read_u16()       # to je fototranz na gpio26, koji je povezan na MUX izlaz
 
 #100 000 ne postoji — duty_u16 je 16-bitni, maksimum je 65535. Sve iznad toga se "wraparound" ili baca grešku, ne daje više brzine
 def motori_naprijed(brzina=65535):
