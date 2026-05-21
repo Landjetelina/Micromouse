@@ -43,7 +43,8 @@ def citaj_senzor(kanal):
     time.sleep_us(50)  # kratka pauza da se MUX stabilizira
     return adc.read_u16()
 
-def motori_naprijed(brzina=100000):
+#100 000 ne postoji — duty_u16 je 16-bitni, maksimum je 65535. Sve iznad toga se "wraparound" ili baca grešku, ne daje više brzine
+def motori_naprijed(brzina=65535):
     left_motor_1.value(0)  
     left_motor_2.value(1)
       
