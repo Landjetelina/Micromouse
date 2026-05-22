@@ -7,10 +7,11 @@ Autonomous maze-solving robot based on Raspberry Pi Pico.
 | Component | Description |
 |-----------|-------------|
 | Raspberry Pi Pico | Main microcontroller (RP2040) |
-| TB6612FNG | Dual motor driver x2|
+| TB6612FNG | Dual motor driver |
 | TSAL6102 | IR LED emitter (940nm) x4 |
 | TEFT4300 | IR phototransistor x4 |
 | CD74HC4053 | Analog multiplexer (4:1) |
+| N20 motors | DC motors with encoders x2
 
 ## Pin Assignment
 
