@@ -4,7 +4,7 @@
 - Antea Parat
 
 ## Natjecanje: 
-31.5. u Algebri
+31.5. u Algebri -> [Lokacija na karti](https://maps.app.goo.gl/GhEoACbUTYHz3x7r8)
 
 
 ## Requirements:
