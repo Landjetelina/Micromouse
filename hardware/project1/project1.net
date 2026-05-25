@@ -1,8 +1,8 @@
 (export
 	(version "E")
 	(design
-		(source "C:\\Users\\antea\\OneDrive - fer.hr\\Dokumenti Laptop\\Micromouse\\micromouse2\\micromouse\\project1\\project1.kicad_sch")
-		(date "2026-04-19T09:42:12")
+		(source "C:\\Users\\antea\\OneDrive - fer.hr\\Dokumenti Laptop\\Micromouse\\micromouse_ver3.2_popravljeno_predano\\micromouse_ver3\\project1\\project1.kicad_sch")
+		(date "2026-05-25T14:22:53")
 		(tool "Eeschema 10.0.0")
 		(sheet
 			(number "1")
@@ -687,17 +687,13 @@
 			)
 		)
 		(comp
-			(ref "D1")
-			(value "TSAL6102")
+			(ref "D5")
+			(value "SFH4545")
 			(footprint "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
 			(description "Light emitting diode")
 			(fields
 				(field
-					(name "MPN") "TSAL6102 ")
-				(field
-					(name "Manufacturer") "Vishay Semiconductors")
-				(field
-					(name "Mouser") "78-TSAL6102")
+					(name "Manufacturer_Part_Number") "SFH 4545 ")
 				(field
 					(name "Footprint") "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
 				(field
@@ -712,16 +708,8 @@
 				(description "Light emitting diode")
 			)
 			(property
-				(name "MPN")
-				(value "TSAL6102 ")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Vishay Semiconductors")
-			)
-			(property
-				(name "Mouser")
-				(value "78-TSAL6102")
+				(name "Manufacturer_Part_Number")
+				(value "SFH 4545 ")
 			)
 			(property
 				(name "Sheetname")
@@ -743,223 +731,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "b886c84c-8774-44e9-a595-788a2a9a2351")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "D2")
-			(value "TSAL6102")
-			(footprint "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
-			(description "Light emitting diode")
-			(fields
-				(field
-					(name "MPN") "TSAL6102 ")
-				(field
-					(name "Manufacturer") "Vishay Semiconductors")
-				(field
-					(name "Mouser") "78-TSAL6102")
-				(field
-					(name "Footprint") "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Light emitting diode")
-			)
-			(libsource
-				(lib "Device")
-				(part "LED")
-				(description "Light emitting diode")
-			)
-			(property
-				(name "MPN")
-				(value "TSAL6102 ")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Vishay Semiconductors")
-			)
-			(property
-				(name "Mouser")
-				(value "78-TSAL6102")
-			)
-			(property
-				(name "Sheetname")
-				(value "project1")
-			)
-			(property
-				(name "Sheetfile")
-				(value "project1.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "LED diode")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "LED* LED_SMD:* LED_THT:*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "e1bc06a9-94f6-4db1-a376-1b97567bdb91")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "D3")
-			(value "TSAL6102")
-			(footprint "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
-			(description "Light emitting diode")
-			(fields
-				(field
-					(name "MPN") "TSAL6102 ")
-				(field
-					(name "Manufacturer") "Vishay Semiconductors")
-				(field
-					(name "Mouser") "78-TSAL6102")
-				(field
-					(name "Footprint") "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Light emitting diode")
-			)
-			(libsource
-				(lib "Device")
-				(part "LED")
-				(description "Light emitting diode")
-			)
-			(property
-				(name "MPN")
-				(value "TSAL6102 ")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Vishay Semiconductors")
-			)
-			(property
-				(name "Mouser")
-				(value "78-TSAL6102")
-			)
-			(property
-				(name "Sheetname")
-				(value "project1")
-			)
-			(property
-				(name "Sheetfile")
-				(value "project1.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "LED diode")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "LED* LED_SMD:* LED_THT:*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "44b7ea00-8ac5-4fca-afa2-d3611c4095a1")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "D4")
-			(value "TSAL6102")
-			(footprint "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
-			(description "Light emitting diode")
-			(fields
-				(field
-					(name "MPN") "TSAL6102 ")
-				(field
-					(name "Manufacturer") "Vishay Semiconductors")
-				(field
-					(name "Mouser") "78-TSAL6102")
-				(field
-					(name "Footprint") "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Light emitting diode")
-			)
-			(libsource
-				(lib "Device")
-				(part "LED")
-				(description "Light emitting diode")
-			)
-			(property
-				(name "MPN")
-				(value "TSAL6102 ")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Vishay Semiconductors")
-			)
-			(property
-				(name "Mouser")
-				(value "78-TSAL6102")
-			)
-			(property
-				(name "Sheetname")
-				(value "project1")
-			)
-			(property
-				(name "Sheetfile")
-				(value "project1.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "LED diode")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "LED* LED_SMD:* LED_THT:*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "98a59448-e4ca-49dd-adb9-ee451e688bd2")
+			(tstamps "ff6d4741-5e5a-4059-ab8d-c74e518620ce")
 			(units
 				(unit
 					(name "A")
@@ -1038,6 +810,186 @@
 				(tstamps "/")
 			)
 			(tstamps "44edf912-134d-4e3e-9d11-9464390328ca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D7")
+			(value "SFH4545")
+			(footprint "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Manufacturer_Part_Number") "SFH 4545 ")
+				(field
+					(name "Footprint") "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "SFH 4545 ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e323ef68-8ce4-48b9-9f79-5621247f1fba")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D8")
+			(value "SFH4545")
+			(footprint "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Manufacturer_Part_Number") "SFH 4545 ")
+				(field
+					(name "Footprint") "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "SFH 4545 ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9342942c-4b13-4f8b-9294-5050c187fd0e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D9")
+			(value "SFH4545")
+			(footprint "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Manufacturer_Part_Number") "SFH 4545 ")
+				(field
+					(name "Footprint") "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "SFH 4545 ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "902bad3d-b4ae-4a20-8ddf-e782237d7aa6")
 			(units
 				(unit
 					(name "A")
@@ -1490,18 +1442,14 @@
 		)
 		(comp
 			(ref "Q5")
-			(value "BPW85C")
-			(footprint "micromouse:BPW85C_THT_2.54mm")
+			(value "TEFT4300")
+			(footprint "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
 			(description "NPN phototransistor, collector/emitter")
 			(fields
 				(field
-					(name "MPN") "BPW85C")
+					(name "Manufacturer_Part_Number") "TEFT4300")
 				(field
-					(name "Mouser") "782-BPW85C ")
-				(field
-					(name "Manufacturer") "Vishay Semiconductors")
-				(field
-					(name "Footprint") "micromouse:BPW85C_THT_2.54mm")
+					(name "Footprint") "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1514,16 +1462,8 @@
 				(description "NPN phototransistor, collector/emitter")
 			)
 			(property
-				(name "MPN")
-				(value "BPW85C")
-			)
-			(property
-				(name "Mouser")
-				(value "782-BPW85C ")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Vishay Semiconductors")
+				(name "Manufacturer_Part_Number")
+				(value "TEFT4300")
 			)
 			(property
 				(name "Sheetname")
@@ -1541,7 +1481,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "4239a41e-45df-4232-8c33-7bc65f278033")
+			(tstamps "e1ff312d-9749-49ed-ba76-cfc96750059e")
 			(units
 				(unit
 					(name "A")
@@ -1558,18 +1498,14 @@
 		)
 		(comp
 			(ref "Q6")
-			(value "BPW85C")
-			(footprint "micromouse:BPW85C_THT_2.54mm")
+			(value "TEFT4300")
+			(footprint "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
 			(description "NPN phototransistor, collector/emitter")
 			(fields
 				(field
-					(name "MPN") "BPW85C")
+					(name "Manufacturer_Part_Number") "TEFT4300")
 				(field
-					(name "Manufacturer") "Vishay Semiconductors")
-				(field
-					(name "Mouser") "782-BPW85C ")
-				(field
-					(name "Footprint") "micromouse:BPW85C_THT_2.54mm")
+					(name "Footprint") "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1582,16 +1518,8 @@
 				(description "NPN phototransistor, collector/emitter")
 			)
 			(property
-				(name "MPN")
-				(value "BPW85C")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Vishay Semiconductors")
-			)
-			(property
-				(name "Mouser")
-				(value "782-BPW85C ")
+				(name "Manufacturer_Part_Number")
+				(value "TEFT4300")
 			)
 			(property
 				(name "Sheetname")
@@ -1609,7 +1537,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "e3a39a1b-cc1a-4058-a4a9-9ffc483e6d49")
+			(tstamps "0b19e269-8300-428b-a2c8-a3055a04ea31")
 			(units
 				(unit
 					(name "A")
@@ -1626,18 +1554,14 @@
 		)
 		(comp
 			(ref "Q7")
-			(value "BPW85C")
-			(footprint "micromouse:BPW85C_THT_2.54mm")
+			(value "TEFT4300")
+			(footprint "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
 			(description "NPN phototransistor, collector/emitter")
 			(fields
 				(field
-					(name "MPN") "BPW85C")
+					(name "Manufacturer_Part_Number") "TEFT4300")
 				(field
-					(name "Manufacturer") "Vishay Semiconductors")
-				(field
-					(name "Mouser") "782-BPW85C ")
-				(field
-					(name "Footprint") "micromouse:BPW85C_THT_2.54mm")
+					(name "Footprint") "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1650,16 +1574,8 @@
 				(description "NPN phototransistor, collector/emitter")
 			)
 			(property
-				(name "MPN")
-				(value "BPW85C")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Vishay Semiconductors")
-			)
-			(property
-				(name "Mouser")
-				(value "782-BPW85C ")
+				(name "Manufacturer_Part_Number")
+				(value "TEFT4300")
 			)
 			(property
 				(name "Sheetname")
@@ -1677,7 +1593,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "4d8d27f8-b80a-468e-9aee-22cea5dfc1c0")
+			(tstamps "27b439b4-6dfe-4b21-8cec-c56d2698404b")
 			(units
 				(unit
 					(name "A")
@@ -1693,19 +1609,15 @@
 			)
 		)
 		(comp
-			(ref "Q8")
-			(value "BPW85C")
-			(footprint "micromouse:BPW85C_THT_2.54mm")
+			(ref "Q9")
+			(value "TEFT4300")
+			(footprint "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
 			(description "NPN phototransistor, collector/emitter")
 			(fields
 				(field
-					(name "MPN") "BPW85C")
+					(name "Manufacturer_Part_Number") "TEFT4300")
 				(field
-					(name "Manufacturer") "Vishay Semiconductors")
-				(field
-					(name "Mouser") "782-BPW85C ")
-				(field
-					(name "Footprint") "micromouse:BPW85C_THT_2.54mm")
+					(name "Footprint") "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
 				(field
 					(name "Datasheet")
 				)
@@ -1718,16 +1630,8 @@
 				(description "NPN phototransistor, collector/emitter")
 			)
 			(property
-				(name "MPN")
-				(value "BPW85C")
-			)
-			(property
-				(name "Manufacturer")
-				(value "Vishay Semiconductors")
-			)
-			(property
-				(name "Mouser")
-				(value "782-BPW85C ")
+				(name "Manufacturer_Part_Number")
+				(value "TEFT4300")
 			)
 			(property
 				(name "Sheetname")
@@ -1745,7 +1649,7 @@
 				(names "/")
 				(tstamps "/")
 			)
-			(tstamps "99210c34-5328-4cce-9f56-55fbed077591")
+			(tstamps "a14d2814-67d1-42ff-8c65-498e2ca4b9b7")
 			(units
 				(unit
 					(name "A")
@@ -1762,7 +1666,7 @@
 		)
 		(comp
 			(ref "R1")
-			(value "68")
+			(value "75")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(description "Resistor")
 			(fields
@@ -1978,7 +1882,7 @@
 		)
 		(comp
 			(ref "R6")
-			(value "68")
+			(value "75")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(description "Resistor")
 			(fields
@@ -2266,7 +2170,7 @@
 		)
 		(comp
 			(ref "R11")
-			(value "68")
+			(value "75")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(description "Resistor")
 			(fields
@@ -2554,7 +2458,7 @@
 		)
 		(comp
 			(ref "R15")
-			(value "68")
+			(value "75")
 			(footprint "Resistor_SMD:R_0805_2012Metric")
 			(description "Resistor")
 			(fields
@@ -4441,25 +4345,25 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "D1")
+				(ref "D5")
 				(pin "2")
 				(pinfunction "A_2")
 				(pintype "passive")
 			)
 			(node
-				(ref "D2")
+				(ref "D7")
 				(pin "2")
 				(pinfunction "A_2")
 				(pintype "passive")
 			)
 			(node
-				(ref "D3")
+				(ref "D8")
 				(pin "2")
 				(pinfunction "A_2")
 				(pintype "passive")
 			)
 			(node
-				(ref "D4")
+				(ref "D9")
 				(pin "2")
 				(pinfunction "A_2")
 				(pintype "passive")
@@ -4495,7 +4399,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "Q8")
+				(ref "Q9")
 				(pin "1")
 				(pinfunction "C_1")
 				(pintype "passive")
@@ -5115,10 +5019,10 @@
 		)
 		(net
 			(code "24")
-			(name "Net-(D1-K)")
+			(name "Net-(D5-K)")
 			(class "Default")
 			(node
-				(ref "D1")
+				(ref "D5")
 				(pin "1")
 				(pinfunction "K_1")
 				(pintype "passive")
@@ -5131,54 +5035,6 @@
 		)
 		(net
 			(code "25")
-			(name "Net-(D2-K)")
-			(class "Default")
-			(node
-				(ref "D2")
-				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R6")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "26")
-			(name "Net-(D3-K)")
-			(class "Default")
-			(node
-				(ref "D3")
-				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R11")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "27")
-			(name "Net-(D4-K)")
-			(class "Default")
-			(node
-				(ref "D4")
-				(pin "1")
-				(pinfunction "K_1")
-				(pintype "passive")
-			)
-			(node
-				(ref "R15")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "28")
 			(name "Net-(D6-A)")
 			(class "Default")
 			(node
@@ -5190,6 +5046,54 @@
 			(node
 				(ref "R12")
 				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "Net-(D7-K)")
+			(class "Default")
+			(node
+				(ref "D7")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "Net-(D8-K)")
+			(class "Default")
+			(node
+				(ref "D8")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "Net-(D9-K)")
+			(class "Default")
+			(node
+				(ref "D9")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
 				(pintype "passive")
 			)
 		)
@@ -5444,14 +5348,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R23")
+				(ref "R24")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
 				(ref "U4")
-				(pin "13")
-				(pinfunction "A0_13")
+				(pin "14")
+				(pinfunction "A1_14")
 				(pintype "passive")
 			)
 		)
@@ -5466,14 +5370,14 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R24")
+				(ref "R25")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
 				(ref "U4")
-				(pin "14")
-				(pinfunction "A1_14")
+				(pin "15")
+				(pinfunction "A2_15")
 				(pintype "passive")
 			)
 		)
@@ -5501,23 +5405,23 @@
 		)
 		(net
 			(code "44")
-			(name "Net-(Q8-E)")
+			(name "Net-(Q9-E)")
 			(class "Default")
 			(node
-				(ref "Q8")
+				(ref "Q9")
 				(pin "2")
 				(pinfunction "E_2")
 				(pintype "passive")
 			)
 			(node
-				(ref "R25")
+				(ref "R23")
 				(pin "1")
 				(pintype "passive")
 			)
 			(node
 				(ref "U4")
-				(pin "15")
-				(pinfunction "A2_15")
+				(pin "13")
+				(pinfunction "A0_13")
 				(pintype "passive")
 			)
 		)
@@ -5545,7 +5449,7 @@
 		(net
 			(code "46")
 			(name "VMotor")
-			(class "Power,Default")
+			(class "Default")
 			(node
 				(ref "A1")
 				(pin "39")
