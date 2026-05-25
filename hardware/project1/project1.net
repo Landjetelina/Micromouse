@@ -1,0 +1,5670 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\antea\\OneDrive - fer.hr\\Dokumenti Laptop\\Micromouse\\micromouse_ver3.2_popravljeno_predano\\micromouse_ver3\\project1\\project1.kicad_sch")
+		(date "2026-05-25T14:22:53")
+		(tool "Eeschema 10.0.0")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "project1.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "A1")
+			(value "RaspberryPi_Pico")
+			(footprint "Module:RaspberryPi_Pico_Common_Unspecified")
+			(datasheet "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
+			(description "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2")
+			(fields
+				(field
+					(name "MPN") "RP2040-PICO-HDR")
+				(field
+					(name "Manufacturer") "Olimex Ltd. ")
+				(field
+					(name "Mouser") "909-RP2040-PICO-HDR")
+				(field
+					(name "Footprint") "Module:RaspberryPi_Pico_Common_Unspecified")
+				(field
+					(name "Datasheet") "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
+				(field
+					(name "Description") "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2")
+			)
+			(libsource
+				(lib "MCU_Module")
+				(part "RaspberryPi_Pico")
+				(description "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2")
+			)
+			(property
+				(name "MPN")
+				(value "RP2040-PICO-HDR")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Olimex Ltd. ")
+			)
+			(property
+				(name "Mouser")
+				(value "909-RP2040-PICO-HDR")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "RP2350A M33 RISC-V Hazard3 usb")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "RaspberryPi?Pico?Common* RaspberryPi?Pico?SMD*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "94a97203-4853-45ce-88a1-95d9dfee8e42")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "30")
+						)
+						(pin
+							(num "37")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "39")
+						)
+						(pin
+							(num "40")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "28")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "38")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "36")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "25")
+						)
+						(pin
+							(num "26")
+						)
+						(pin
+							(num "27")
+						)
+						(pin
+							(num "29")
+						)
+						(pin
+							(num "35")
+						)
+						(pin
+							(num "31")
+						)
+						(pin
+							(num "32")
+						)
+						(pin
+							(num "34")
+						)
+						(pin
+							(num "33")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "BT2")
+			(value "Battery_Cell")
+			(footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+			(description "Single-cell battery")
+			(fields
+				(field
+					(name "Sim.Device") "V")
+				(field
+					(name "Sim.Type") "DC")
+				(field
+					(name "Sim.Pins") "1=+ 2=-")
+				(field
+					(name "MPN") "B2B-PH-K-S(LF)(SN) ")
+				(field
+					(name "Manufacturer") "JST Commercial")
+				(field
+					(name "Mouser") "306-B2BPHKSLFSNPP ")
+				(field
+					(name "Footprint") "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Single-cell battery")
+			)
+			(libsource
+				(lib "Device")
+				(part "Battery_Cell")
+				(description "Single-cell battery")
+			)
+			(property
+				(name "Sim.Device")
+				(value "V")
+			)
+			(property
+				(name "Sim.Type")
+				(value "DC")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=+ 2=-")
+			)
+			(property
+				(name "MPN")
+				(value "B2B-PH-K-S(LF)(SN) ")
+			)
+			(property
+				(name "Manufacturer")
+				(value "JST Commercial")
+			)
+			(property
+				(name "Mouser")
+				(value "306-B2BPHKSLFSNPP ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "battery cell")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "debddbd7-2cad-4022-961d-1ae810824171")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C5")
+			(value "10µF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "MPN") "GRM188R60J106ME47D")
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Mouser") "81-GRM188R60J106ME47")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R60J106ME47D")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Mouser")
+				(value "81-GRM188R60J106ME47")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "1ad15250-d123-49df-be48-0d3c2665bcf1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C6")
+			(value "100µF")
+			(footprint "Capacitor_SMD:C_0805_2012Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "MPN") "GRM21BR60G107ME1L")
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Mouser") "81-GRM21BR60G107ME1L")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM21BR60G107ME1L")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Mouser")
+				(value "81-GRM21BR60G107ME1L")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "dced1653-4259-4145-8d72-3212db1b7daa")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C10")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "MPN") "GRM188R72A104KA35D")
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Mouser") "81-GRM188R72A104KA35")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R72A104KA35D")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Mouser")
+				(value "81-GRM188R72A104KA35")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "aa4b863e-a3bf-4b32-bb8b-a15a1c29f736")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C11")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "MPN") "GRM188R72A104KA35D")
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Mouser") "81-GRM188R72A104KA35")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R72A104KA35D")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Mouser")
+				(value "81-GRM188R72A104KA35")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "fd0e2351-d77e-44f2-b077-982c26063f8d")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C12")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "Unpolarized capacitor")
+			(fields
+				(field
+					(name "MPN") "GRM188R72A104KA35D")
+				(field
+					(name "Manufacturer") "Murata Electronics")
+				(field
+					(name "Mouser") "81-GRM188R72A104KA35")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(libsource
+				(lib "Device")
+				(part "C")
+				(description "Unpolarized capacitor")
+			)
+			(property
+				(name "MPN")
+				(value "GRM188R72A104KA35D")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Murata Electronics")
+			)
+			(property
+				(name "Mouser")
+				(value "81-GRM188R72A104KA35")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "cap capacitor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "491f0d71-2475-4593-8d94-8a4a557e3eb7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D5")
+			(value "SFH4545")
+			(footprint "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Manufacturer_Part_Number") "SFH 4545 ")
+				(field
+					(name "Footprint") "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "SFH 4545 ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ff6d4741-5e5a-4059-ab8d-c74e518620ce")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D6")
+			(value "LED")
+			(footprint "LED_SMD:LED_0805_2012Metric")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+				(field
+					(name "MPN") "604-APT1608CGCK ")
+				(field
+					(name "Manufacturer") "Kingbright")
+				(field
+					(name "Mouser") "604-APT1608CGCK ")
+				(field
+					(name "Footprint") "LED_SMD:LED_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Sim.Pins")
+				(value "1=K 2=A")
+			)
+			(property
+				(name "MPN")
+				(value "604-APT1608CGCK ")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Kingbright")
+			)
+			(property
+				(name "Mouser")
+				(value "604-APT1608CGCK ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "44edf912-134d-4e3e-9d11-9464390328ca")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D7")
+			(value "SFH4545")
+			(footprint "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Manufacturer_Part_Number") "SFH 4545 ")
+				(field
+					(name "Footprint") "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "SFH 4545 ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e323ef68-8ce4-48b9-9f79-5621247f1fba")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D8")
+			(value "SFH4545")
+			(footprint "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Manufacturer_Part_Number") "SFH 4545 ")
+				(field
+					(name "Footprint") "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "SFH 4545 ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9342942c-4b13-4f8b-9294-5050c187fd0e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "D9")
+			(value "SFH4545")
+			(footprint "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
+			(description "Light emitting diode")
+			(fields
+				(field
+					(name "Manufacturer_Part_Number") "SFH 4545 ")
+				(field
+					(name "Footprint") "LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+			)
+			(libsource
+				(lib "Device")
+				(part "LED")
+				(description "Light emitting diode")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "SFH 4545 ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "LED diode")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LED* LED_SMD:* LED_THT:*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "902bad3d-b4ae-4a20-8ddf-e782237d7aa6")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Motor_Left_A1")
+			(value "N20 DC Motor with Magnetic Encoder")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "4639")
+				(field
+					(name "Manufacturer") "Adafruit")
+				(field
+					(name "Mouser") "485-4639")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "micromouse_symbols")
+				(part "N20_with_encoder")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "4639")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Adafruit")
+			)
+			(property
+				(name "Mouser")
+				(value "485-4639")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "de547407-ac4d-4cf4-9a0b-22944957f962")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Motor_Right_B1")
+			(value "N20 DC Motor with Magnetic Encoder")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+			(fields
+				(field
+					(name "MPN") "4639")
+				(field
+					(name "Manufacturer") "Adafruit")
+				(field
+					(name "Mouser") "485-4639")
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(libsource
+				(lib "micromouse_symbols")
+				(part "N20_with_encoder")
+				(description "")
+			)
+			(property
+				(name "MPN")
+				(value "4639")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Adafruit")
+			)
+			(property
+				(name "Mouser")
+				(value "485-4639")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "6d16c8f3-9f40-4f10-be0e-fc00bd22a4d9")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q1")
+			(value "Q_NMOS_GSD")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(description "N-MOSFET transistor, gate/source/drain")
+			(fields
+				(field
+					(name "MPN") "SI2302CDS-T1-GE3")
+				(field
+					(name "Manufacturer") "Vishay Semiconductors")
+				(field
+					(name "Mouser") "781-SI2302CDS-T1-GE3")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-MOSFET transistor, gate/source/drain")
+			)
+			(libsource
+				(lib "Transistor_FET")
+				(part "Q_NMOS_GSD")
+				(description "N-MOSFET transistor, gate/source/drain")
+			)
+			(property
+				(name "MPN")
+				(value "SI2302CDS-T1-GE3")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay Semiconductors")
+			)
+			(property
+				(name "Mouser")
+				(value "781-SI2302CDS-T1-GE3")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "transistor NMOS N-MOS N-MOSFET")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "98a7092d-0a55-4faa-9d0a-d3343db291e1")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q2")
+			(value "Q_NMOS_GSD")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(description "N-MOSFET transistor, gate/source/drain")
+			(fields
+				(field
+					(name "MPN") "SI2302CDS-T1-GE3")
+				(field
+					(name "Manufacturer") "Vishay Semiconductors")
+				(field
+					(name "Mouser") "781-SI2302CDS-T1-GE3")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-MOSFET transistor, gate/source/drain")
+			)
+			(libsource
+				(lib "Transistor_FET")
+				(part "Q_NMOS_GSD")
+				(description "N-MOSFET transistor, gate/source/drain")
+			)
+			(property
+				(name "MPN")
+				(value "SI2302CDS-T1-GE3")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay Semiconductors")
+			)
+			(property
+				(name "Mouser")
+				(value "781-SI2302CDS-T1-GE3")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "transistor NMOS N-MOS N-MOSFET")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "281b6a9d-559d-4148-9fb8-b69c7aaf44d3")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q3")
+			(value "Q_NMOS_GSD")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(description "N-MOSFET transistor, gate/source/drain")
+			(fields
+				(field
+					(name "MPN") "SI2302CDS-T1-GE3")
+				(field
+					(name "Manufacturer") "Vishay Semiconductors")
+				(field
+					(name "Mouser") "781-SI2302CDS-T1-GE3")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-MOSFET transistor, gate/source/drain")
+			)
+			(libsource
+				(lib "Transistor_FET")
+				(part "Q_NMOS_GSD")
+				(description "N-MOSFET transistor, gate/source/drain")
+			)
+			(property
+				(name "MPN")
+				(value "SI2302CDS-T1-GE3")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay Semiconductors")
+			)
+			(property
+				(name "Mouser")
+				(value "781-SI2302CDS-T1-GE3")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "transistor NMOS N-MOS N-MOSFET")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "50b943e3-855c-45c7-b759-411482099e62")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q4")
+			(value "Q_NMOS_GSD")
+			(footprint "Package_TO_SOT_SMD:SOT-23")
+			(description "N-MOSFET transistor, gate/source/drain")
+			(fields
+				(field
+					(name "MPN") "SI2302CDS-T1-GE3")
+				(field
+					(name "Manufacturer") "Vishay Semiconductors")
+				(field
+					(name "Mouser") "781-SI2302CDS-T1-GE3")
+				(field
+					(name "Footprint") "Package_TO_SOT_SMD:SOT-23")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-MOSFET transistor, gate/source/drain")
+			)
+			(libsource
+				(lib "Transistor_FET")
+				(part "Q_NMOS_GSD")
+				(description "N-MOSFET transistor, gate/source/drain")
+			)
+			(property
+				(name "MPN")
+				(value "SI2302CDS-T1-GE3")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay Semiconductors")
+			)
+			(property
+				(name "Mouser")
+				(value "781-SI2302CDS-T1-GE3")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "transistor NMOS N-MOS N-MOSFET")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9c809626-25b4-4599-bd53-6b321f8819eb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q5")
+			(value "TEFT4300")
+			(footprint "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
+			(description "NPN phototransistor, collector/emitter")
+			(fields
+				(field
+					(name "Manufacturer_Part_Number") "TEFT4300")
+				(field
+					(name "Footprint") "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "NPN phototransistor, collector/emitter")
+			)
+			(libsource
+				(lib "Device")
+				(part "Q_Photo_NPN")
+				(description "NPN phototransistor, collector/emitter")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "TEFT4300")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "phototransistor NPN")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e1ff312d-9749-49ed-ba76-cfc96750059e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q6")
+			(value "TEFT4300")
+			(footprint "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
+			(description "NPN phototransistor, collector/emitter")
+			(fields
+				(field
+					(name "Manufacturer_Part_Number") "TEFT4300")
+				(field
+					(name "Footprint") "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "NPN phototransistor, collector/emitter")
+			)
+			(libsource
+				(lib "Device")
+				(part "Q_Photo_NPN")
+				(description "NPN phototransistor, collector/emitter")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "TEFT4300")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "phototransistor NPN")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0b19e269-8300-428b-a2c8-a3055a04ea31")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q7")
+			(value "TEFT4300")
+			(footprint "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
+			(description "NPN phototransistor, collector/emitter")
+			(fields
+				(field
+					(name "Manufacturer_Part_Number") "TEFT4300")
+				(field
+					(name "Footprint") "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "NPN phototransistor, collector/emitter")
+			)
+			(libsource
+				(lib "Device")
+				(part "Q_Photo_NPN")
+				(description "NPN phototransistor, collector/emitter")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "TEFT4300")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "phototransistor NPN")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "27b439b4-6dfe-4b21-8cec-c56d2698404b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "Q9")
+			(value "TEFT4300")
+			(footprint "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
+			(description "NPN phototransistor, collector/emitter")
+			(fields
+				(field
+					(name "Manufacturer_Part_Number") "TEFT4300")
+				(field
+					(name "Footprint") "LED_THT:LED_D3.0mm_Horizontal_O3.81mm_Z2.0mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "NPN phototransistor, collector/emitter")
+			)
+			(libsource
+				(lib "Device")
+				(part "Q_Photo_NPN")
+				(description "NPN phototransistor, collector/emitter")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "TEFT4300")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "phototransistor NPN")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a14d2814-67d1-42ff-8c65-498e2ca4b9b7")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R1")
+			(value "75")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW080568R0FKEA")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW080568R0FKEA ")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW080568R0FKEA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW080568R0FKEA ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a093ec97-30f1-4808-90ce-71b765b82f51")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R3")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW0805100KFKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW0805100KFKEAC")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW0805100KFKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW0805100KFKEAC")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ee38310f-3fe5-4a69-a10e-c031f175bd43")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R5")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW0805100KFKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW0805100KFKEAC")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW0805100KFKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW0805100KFKEAC")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "a1ae60b2-e431-4cd9-9bda-71dddbfc7cfe")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R6")
+			(value "75")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW080568R0FKEA")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW080568R0FKEA ")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW080568R0FKEA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW080568R0FKEA ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ab22b0e7-889e-4fc9-b3df-cec071afb192")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R8")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW0805100KFKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW0805100KFKEAC")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW0805100KFKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW0805100KFKEAC")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "cb7903c0-b8dc-4fe2-b7dc-7fe1f6a57bfb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R9")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW080510K0FKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW080510K0FKEAC")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW080510K0FKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW080510K0FKEAC")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ac3c1b39-d52a-4141-9be1-56903e882784")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R10")
+			(value "10k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW080510K0FKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW080510K0FKEAC")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW080510K0FKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW080510K0FKEAC")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "73d0e8d6-a60d-4189-91d1-dd5257480c29")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R11")
+			(value "75")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW080568R0FKEA")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW080568R0FKEA ")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW080568R0FKEA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW080568R0FKEA ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "f27a9c11-3660-4578-bbbb-73a188a440ab")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R12")
+			(value "220")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW0805220RFKEAC")
+				(field
+					(name "Mouser") "71-CRCW0805220RFKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW0805220RFKEAC")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW0805220RFKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "306d2dff-852a-42e1-8d51-97fbd851c864")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R13")
+			(value "100")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW0805100RFKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW0805100RFKEAC")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW0805100RFKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW0805100RFKEAC")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9b6d0be7-d964-4ed3-bfc9-ebb76ec0b375")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R14")
+			(value "100k")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW0805100KFKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW0805100KFKEAC")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW0805100KFKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW0805100KFKEAC")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "43e7a9e1-72b0-4be3-b99f-6dd7a44ec9fb")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R15")
+			(value "75")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW080568R0FKEA")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW080568R0FKEA ")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW080568R0FKEA")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW080568R0FKEA ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "38679ab7-5112-4f15-bbe9-2fcd9fe6a41a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R16")
+			(value "100")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW0805100RFKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW0805100RFKEAC")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW0805100RFKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW0805100RFKEAC")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "df8e97a6-38ea-49b7-8656-012e5f1e0719")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R17")
+			(value "100")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW0805100RFKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW0805100RFKEAC")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW0805100RFKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW0805100RFKEAC")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9aeff61c-08be-45ed-86ab-a2bc899b0b4c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R18")
+			(value "100")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW0805100RFKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW0805100RFKEAC")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW0805100RFKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW0805100RFKEAC")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "9ee2d2b3-b363-41e3-97f5-df36c0129f7a")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R23")
+			(value "1k8")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW08051K80FKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW08051K80FKEAC")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW08051K80FKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW08051K80FKEAC")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "d1726c98-02e8-4703-ad4f-abf3ffdec2b8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R24")
+			(value "1k8")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW08051K80FKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW08051K80FKEAC")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW08051K80FKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW08051K80FKEAC")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "567b43b2-2d9d-4f00-9f28-a2ed16186890")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R25")
+			(value "1k8")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW08051K80FKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW08051K80FKEAC")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW08051K80FKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW08051K80FKEAC")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "540aa207-3c64-441c-abbe-96d65f510513")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "R26")
+			(value "1k8")
+			(footprint "Resistor_SMD:R_0805_2012Metric")
+			(description "Resistor")
+			(fields
+				(field
+					(name "MPN") "CRCW08051K80FKEAC")
+				(field
+					(name "Manufacturer") "Vishay")
+				(field
+					(name "Mouser") "71-CRCW08051K80FKEAC")
+				(field
+					(name "Footprint") "Resistor_SMD:R_0805_2012Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(libsource
+				(lib "Device")
+				(part "R")
+				(description "Resistor")
+			)
+			(property
+				(name "MPN")
+				(value "CRCW08051K80FKEAC")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Vishay")
+			)
+			(property
+				(name "Mouser")
+				(value "71-CRCW08051K80FKEAC")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "R res resistor")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "R_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "b23eb5c1-90d4-40cc-8a0d-24ad5fafd854")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW2")
+			(value "SW_SPDT")
+			(footprint "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN")
+			(description "Switch, single pole double throw")
+			(fields
+				(field
+					(name "MPN") "JS102011SAQN")
+				(field
+					(name "Manufacturer") "C&K")
+				(field
+					(name "Mouser") "611-JS102011SAQN ")
+				(field
+					(name "Footprint") "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_SPDT")
+				(description "Switch, single pole double throw")
+			)
+			(property
+				(name "MPN")
+				(value "JS102011SAQN")
+			)
+			(property
+				(name "Manufacturer")
+				(value "C&K")
+			)
+			(property
+				(name "Mouser")
+				(value "611-JS102011SAQN ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch single-pole double-throw spdt ON-ON")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "8b5e3da2-ca7c-40ae-a536-d42ea8cd519c")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW3")
+			(value "SW_Push")
+			(footprint "Button_Switch_THT:SW_PUSH_6mm")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "MPN") "TL1105SPF160Q")
+				(field
+					(name "Manufacturer") "E-Switch ")
+				(field
+					(name "Mouser") "612-TL1105SP")
+				(field
+					(name "Footprint") "Button_Switch_THT:SW_PUSH_6mm")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_Push")
+				(description "Push button switch, generic, two pins")
+			)
+			(property
+				(name "MPN")
+				(value "TL1105SPF160Q")
+			)
+			(property
+				(name "Manufacturer")
+				(value "E-Switch ")
+			)
+			(property
+				(name "Mouser")
+				(value "612-TL1105SP")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch normally-open pushbutton push-button")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "29b73f6f-df6b-41b6-97b8-efed2d97ffd8")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "SW5")
+			(value "SW_SPDT")
+			(footprint "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN")
+			(description "Switch, single pole double throw")
+			(fields
+				(field
+					(name "MPN") "JS102011SAQN")
+				(field
+					(name "Manufacturer") "C&K")
+				(field
+					(name "Mouser") "611-JS102011SAQN ")
+				(field
+					(name "Footprint") "Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(libsource
+				(lib "Switch")
+				(part "SW_SPDT")
+				(description "Switch, single pole double throw")
+			)
+			(property
+				(name "MPN")
+				(value "JS102011SAQN")
+			)
+			(property
+				(name "Manufacturer")
+				(value "C&K")
+			)
+			(property
+				(name "Mouser")
+				(value "611-JS102011SAQN ")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "switch single-pole double-throw spdt ON-ON")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5a369c87-92cf-4521-be68-444e4a4e7f01")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U2")
+			(value "TB6612FNG")
+			(footprint "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
+			(datasheet "https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html")
+			(description "Driver IC for Dual DC motor, SSOP-24")
+			(fields
+				(field
+					(name "MPN") "TB6612FNG,C,8,EL")
+				(field
+					(name "Manufacturer") "Toshiba")
+				(field
+					(name "Mouser") "757-TB6612FNGC8EL")
+				(field
+					(name "Footprint") "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
+				(field
+					(name "Datasheet") "https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html")
+				(field
+					(name "Description") "Driver IC for Dual DC motor, SSOP-24")
+			)
+			(libsource
+				(lib "Driver_Motor")
+				(part "TB6612FNG")
+				(description "Driver IC for Dual DC motor, SSOP-24")
+			)
+			(property
+				(name "MPN")
+				(value "TB6612FNG,C,8,EL")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Toshiba")
+			)
+			(property
+				(name "Mouser")
+				(value "757-TB6612FNGC8EL")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "H-bridge motor driver")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "SSOP*5.3x8.2mm*P0.65mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "5a70aca0-0105-40db-bd00-593aff422823")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "19")
+						)
+						(pin
+							(num "23")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "21")
+						)
+						(pin
+							(num "22")
+						)
+						(pin
+							(num "17")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "20")
+						)
+						(pin
+							(num "18")
+						)
+						(pin
+							(num "24")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "U4")
+			(value "CD74HC4051M")
+			(footprint "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm")
+			(datasheet "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf")
+			(description "8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16")
+			(fields
+				(field
+					(name "MPN") "CD74HC4051M96")
+				(field
+					(name "Manufacturer") "Texas Instruments")
+				(field
+					(name "Mouser") "595-CD74HC4051M96")
+				(field
+					(name "Footprint") "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm")
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf")
+				(field
+					(name "Description") "8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16")
+			)
+			(libsource
+				(lib "74xx")
+				(part "74HC4051")
+				(description "8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16")
+			)
+			(property
+				(name "MPN")
+				(value "CD74HC4051M96")
+			)
+			(property
+				(name "Manufacturer")
+				(value "Texas Instruments")
+			)
+			(property
+				(name "Mouser")
+				(value "595-CD74HC4051M96")
+			)
+			(property
+				(name "Sheetname")
+				(value "project1")
+			)
+			(property
+				(name "Sheetfile")
+				(value "project1.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "HCMOS Multiplexer Demultiplexer Analog")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* SOIC*5.3x10.2mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "3268854e-47a0-4cd1-af03-d32577a798bc")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "11")
+						)
+						(pin
+							(num "10")
+						)
+						(pin
+							(num "9")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "16")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "13")
+						)
+						(pin
+							(num "14")
+						)
+						(pin
+							(num "15")
+						)
+						(pin
+							(num "12")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "74xx")
+			(part "74HC4051")
+			(description "8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16")
+			(docs "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf")
+			(footprints
+				(fp "DIP*W7.62mm*")
+				(fp "SOIC*3.9x9.9mm*P1.27mm*")
+				(fp "SOIC*5.3x10.2mm*P1.27mm*")
+				(fp "TSSOP*4.4x5mm*P0.65mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "74HC4051")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet") "http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf")
+				(field
+					(name "Description") "8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A4")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A6")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "A7")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "A5")
+					(type "passive")
+				)
+				(pin
+					(num "6")
+					(name "~{E}")
+					(type "input")
+				)
+				(pin
+					(num "7")
+					(name "VEE")
+					(type "power_in")
+				)
+				(pin
+					(num "8")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "9")
+					(name "S2")
+					(type "input")
+				)
+				(pin
+					(num "10")
+					(name "S1")
+					(type "input")
+				)
+				(pin
+					(num "11")
+					(name "S0")
+					(type "input")
+				)
+				(pin
+					(num "12")
+					(name "A3")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "A0")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "A1")
+					(type "passive")
+				)
+				(pin
+					(num "15")
+					(name "A2")
+					(type "passive")
+				)
+				(pin
+					(num "16")
+					(name "VCC")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Battery_Cell")
+			(description "Single-cell battery")
+			(fields
+				(field
+					(name "Reference") "BT")
+				(field
+					(name "Value") "Battery_Cell")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Single-cell battery")
+				(field
+					(name "Sim.Device") "V")
+				(field
+					(name "Sim.Type") "DC")
+				(field
+					(name "Sim.Pins") "1=+ 2=-")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "+")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "-")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C")
+			(description "Unpolarized capacitor")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "LED")
+			(description "Light emitting diode")
+			(footprints
+				(fp "LED*")
+				(fp "LED_SMD:*")
+				(fp "LED_THT:*")
+			)
+			(fields
+				(field
+					(name "Reference") "D")
+				(field
+					(name "Value") "LED")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Light emitting diode")
+				(field
+					(name "Sim.Pins") "1=K 2=A")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "K")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "A")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "Q_Photo_NPN")
+			(description "NPN phototransistor, collector/emitter")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "Q_Photo_NPN")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "NPN phototransistor, collector/emitter")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "C")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "E")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "R")
+			(description "Resistor")
+			(footprints
+				(fp "R_*")
+			)
+			(fields
+				(field
+					(name "Reference") "R")
+				(field
+					(name "Value") "R")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Resistor")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Driver_Motor")
+			(part "TB6612FNG")
+			(description "Driver IC for Dual DC motor, SSOP-24")
+			(docs "https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html")
+			(footprints
+				(fp "SSOP*5.3x8.2mm*P0.65mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "TB6612FNG")
+				(field
+					(name "Footprint") "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm")
+				(field
+					(name "Datasheet") "https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html")
+				(field
+					(name "Description") "Driver IC for Dual DC motor, SSOP-24")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "AO1")
+					(type "output")
+				)
+				(pin
+					(num "2")
+					(name "AO1")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "PGND1")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "PGND1")
+					(type "passive")
+				)
+				(pin
+					(num "5")
+					(name "AO2")
+					(type "output")
+				)
+				(pin
+					(num "6")
+					(name "AO2")
+					(type "passive")
+				)
+				(pin
+					(num "7")
+					(name "BO2")
+					(type "output")
+				)
+				(pin
+					(num "8")
+					(name "BO2")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "PGND2")
+					(type "power_in")
+				)
+				(pin
+					(num "10")
+					(name "PGND2")
+					(type "passive")
+				)
+				(pin
+					(num "11")
+					(name "BO1")
+					(type "output")
+				)
+				(pin
+					(num "12")
+					(name "BO1")
+					(type "passive")
+				)
+				(pin
+					(num "13")
+					(name "VM2")
+					(type "power_in")
+				)
+				(pin
+					(num "14")
+					(name "VM3")
+					(type "power_in")
+				)
+				(pin
+					(num "15")
+					(name "PWMB")
+					(type "input")
+				)
+				(pin
+					(num "16")
+					(name "BIN2")
+					(type "input")
+				)
+				(pin
+					(num "17")
+					(name "BIN1")
+					(type "input")
+				)
+				(pin
+					(num "18")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "19")
+					(name "STBY")
+					(type "input")
+				)
+				(pin
+					(num "20")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "21")
+					(name "AIN1")
+					(type "input")
+				)
+				(pin
+					(num "22")
+					(name "AIN2")
+					(type "input")
+				)
+				(pin
+					(num "23")
+					(name "PWMA")
+					(type "input")
+				)
+				(pin
+					(num "24")
+					(name "VM1")
+					(type "power_in")
+				)
+			)
+		)
+		(libpart
+			(lib "MCU_Module")
+			(part "RaspberryPi_Pico")
+			(description "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2")
+			(docs "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
+			(footprints
+				(fp "RaspberryPi?Pico?Common*")
+				(fp "RaspberryPi?Pico?SMD*")
+			)
+			(fields
+				(field
+					(name "Reference") "A")
+				(field
+					(name "Value") "RaspberryPi_Pico")
+				(field
+					(name "Footprint") "Module:RaspberryPi_Pico_Common_Unspecified")
+				(field
+					(name "Datasheet") "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
+				(field
+					(name "Description") "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "GPIO0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "2")
+					(name "GPIO1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_out")
+				)
+				(pin
+					(num "4")
+					(name "GPIO2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "5")
+					(name "GPIO3")
+					(type "bidirectional")
+				)
+				(pin
+					(num "6")
+					(name "GPIO4")
+					(type "bidirectional")
+				)
+				(pin
+					(num "7")
+					(name "GPIO5")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "9")
+					(name "GPIO6")
+					(type "bidirectional")
+				)
+				(pin
+					(num "10")
+					(name "GPIO7")
+					(type "bidirectional")
+				)
+				(pin
+					(num "11")
+					(name "GPIO8")
+					(type "bidirectional")
+				)
+				(pin
+					(num "12")
+					(name "GPIO9")
+					(type "bidirectional")
+				)
+				(pin
+					(num "13")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "14")
+					(name "GPIO10")
+					(type "bidirectional")
+				)
+				(pin
+					(num "15")
+					(name "GPIO11")
+					(type "bidirectional")
+				)
+				(pin
+					(num "16")
+					(name "GPIO12")
+					(type "bidirectional")
+				)
+				(pin
+					(num "17")
+					(name "GPIO13")
+					(type "bidirectional")
+				)
+				(pin
+					(num "18")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "19")
+					(name "GPIO14")
+					(type "bidirectional")
+				)
+				(pin
+					(num "20")
+					(name "GPIO15")
+					(type "bidirectional")
+				)
+				(pin
+					(num "21")
+					(name "GPIO16")
+					(type "bidirectional")
+				)
+				(pin
+					(num "22")
+					(name "GPIO17")
+					(type "bidirectional")
+				)
+				(pin
+					(num "23")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "24")
+					(name "GPIO18")
+					(type "bidirectional")
+				)
+				(pin
+					(num "25")
+					(name "GPIO19")
+					(type "bidirectional")
+				)
+				(pin
+					(num "26")
+					(name "GPIO20")
+					(type "bidirectional")
+				)
+				(pin
+					(num "27")
+					(name "GPIO21")
+					(type "bidirectional")
+				)
+				(pin
+					(num "28")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "29")
+					(name "GPIO22")
+					(type "bidirectional")
+				)
+				(pin
+					(num "30")
+					(name "RUN")
+					(type "passive")
+				)
+				(pin
+					(num "31")
+					(name "GPIO26_ADC0")
+					(type "bidirectional")
+				)
+				(pin
+					(num "32")
+					(name "GPIO27_ADC1")
+					(type "bidirectional")
+				)
+				(pin
+					(num "33")
+					(name "AGND")
+					(type "power_out")
+				)
+				(pin
+					(num "34")
+					(name "GPIO28_ADC2")
+					(type "bidirectional")
+				)
+				(pin
+					(num "35")
+					(name "ADC_VREF")
+					(type "power_in")
+				)
+				(pin
+					(num "36")
+					(name "3V3")
+					(type "power_out")
+				)
+				(pin
+					(num "37")
+					(name "3V3_EN")
+					(type "passive")
+				)
+				(pin
+					(num "38")
+					(name "GND")
+					(type "passive")
+				)
+				(pin
+					(num "39")
+					(name "VSYS")
+					(type "power_in")
+				)
+				(pin
+					(num "40")
+					(name "VBUS")
+					(type "power_out")
+				)
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_Push")
+			(description "Push button switch, generic, two pins")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_Push")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Push button switch, generic, two pins")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "2")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Switch")
+			(part "SW_SPDT")
+			(description "Switch, single pole double throw")
+			(fields
+				(field
+					(name "Reference") "SW")
+				(field
+					(name "Value") "SW_SPDT")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Switch, single pole double throw")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "A")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "B")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "C")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Transistor_FET")
+			(part "Q_NMOS_GSD")
+			(description "N-MOSFET transistor, gate/source/drain")
+			(fields
+				(field
+					(name "Reference") "Q")
+				(field
+					(name "Value") "Q_NMOS_GSD")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "N-MOSFET transistor, gate/source/drain")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "G")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "S")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "D")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "micromouse_symbols")
+			(part "N20_with_encoder")
+			(fields
+				(field
+					(name "Reference") "ME")
+				(field
+					(name "Value")
+				)
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description")
+				)
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "M1")
+					(type "input")
+				)
+				(pin
+					(num "2")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "3")
+					(name "C1")
+					(type "output")
+				)
+				(pin
+					(num "4")
+					(name "C2")
+					(type "output")
+				)
+				(pin
+					(num "5")
+					(name "VCC")
+					(type "power_in")
+				)
+				(pin
+					(num "6")
+					(name "M2")
+					(type "input")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "74xx")
+			(uri "${KICAD10_SYMBOL_DIR}/74xx.kicad_symdir")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_symdir")
+		)
+		(library
+			(logical "Driver_Motor")
+			(uri "${KICAD10_SYMBOL_DIR}/Driver_Motor.kicad_symdir")
+		)
+		(library
+			(logical "MCU_Module")
+			(uri "${KICAD10_SYMBOL_DIR}/MCU_Module.kicad_symdir")
+		)
+		(library
+			(logical "Switch")
+			(uri "${KICAD10_SYMBOL_DIR}/Switch.kicad_symdir")
+		)
+		(library
+			(logical "Transistor_FET")
+			(uri "${KICAD10_SYMBOL_DIR}/Transistor_FET.kicad_symdir")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+3.3V")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "36")
+				(pinfunction "3V3_36")
+				(pintype "power_out")
+			)
+			(node
+				(ref "C10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "D5")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D7")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D8")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D9")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Motor_Left_A1")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Motor_Right_B1")
+				(pin "5")
+				(pinfunction "VCC_5")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Q5")
+				(pin "1")
+				(pinfunction "C_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q6")
+				(pin "1")
+				(pinfunction "C_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q7")
+				(pin "1")
+				(pinfunction "C_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q9")
+				(pin "1")
+				(pinfunction "C_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW5")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "19")
+				(pinfunction "STBY_19")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "20")
+				(pinfunction "VCC_20")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "16")
+				(pinfunction "VCC_16")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "2")
+			(name "/A1")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "14")
+				(pinfunction "GPIO10_14")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Motor_Left_A1")
+				(pin "3")
+				(pinfunction "C1_3")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "3")
+			(name "/A2")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "15")
+				(pinfunction "GPIO11_15")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Motor_Left_A1")
+				(pin "4")
+				(pinfunction "C2_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "4")
+			(name "/B1")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "16")
+				(pinfunction "GPIO12_16")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Motor_Right_B1")
+				(pin "3")
+				(pinfunction "C1_3")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "5")
+			(name "/B2")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "17")
+				(pinfunction "GPIO13_17")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "Motor_Right_B1")
+				(pin "4")
+				(pinfunction "C2_4")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "6")
+			(name "/IRT_READ")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "31")
+				(pinfunction "GPIO26_ADC0_31")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U4")
+				(pin "3")
+				(pinfunction "A_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "/IR_left")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "1")
+				(pinfunction "GPIO0_1")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R18")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "/IR_left-right")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "2")
+				(pinfunction "GPIO1_2")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R17")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "/IR_right")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "5")
+				(pinfunction "GPIO3_5")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R13")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "/IR_right-left")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "4")
+				(pinfunction "GPIO2_4")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R16")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "11")
+			(name "/Left_motor_1")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "6")
+				(pinfunction "GPIO4_6")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "21")
+				(pinfunction "AIN1_21")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "12")
+			(name "/Left_motor_2")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "7")
+				(pinfunction "GPIO5_7")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "22")
+				(pinfunction "AIN2_22")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "13")
+			(name "/MUX_foto_0")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "21")
+				(pinfunction "GPIO16_21")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U4")
+				(pin "11")
+				(pinfunction "S0_11")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "14")
+			(name "/MUX_foto_1")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "22")
+				(pinfunction "GPIO17_22")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U4")
+				(pin "10")
+				(pinfunction "S1_10")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "15")
+			(name "/MUX_foto_2")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "24")
+				(pinfunction "GPIO18_24")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U4")
+				(pin "9")
+				(pinfunction "S2_9")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "16")
+			(name "/Right_motor_1")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "9")
+				(pinfunction "GPIO6_9")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "17")
+				(pinfunction "BIN1_17")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "17")
+			(name "/Right_motor_2")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "10")
+				(pinfunction "GPIO7_10")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "16")
+				(pinfunction "BIN2_16")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "18")
+			(name "/Speed_Left")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "11")
+				(pinfunction "GPIO8_11")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "23")
+				(pinfunction "PWMA_23")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "19")
+			(name "/Speed_right")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "12")
+				(pinfunction "GPIO9_12")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "U2")
+				(pin "15")
+				(pinfunction "PWMB_15")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "20")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "13")
+				(pinfunction "GND_13")
+				(pintype "passive")
+			)
+			(node
+				(ref "A1")
+				(pin "18")
+				(pinfunction "GND_18")
+				(pintype "passive")
+			)
+			(node
+				(ref "A1")
+				(pin "23")
+				(pinfunction "GND_23")
+				(pintype "passive")
+			)
+			(node
+				(ref "A1")
+				(pin "28")
+				(pinfunction "GND_28")
+				(pintype "passive")
+			)
+			(node
+				(ref "A1")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_out")
+			)
+			(node
+				(ref "A1")
+				(pin "33")
+				(pinfunction "AGND_33")
+				(pintype "power_out")
+			)
+			(node
+				(ref "A1")
+				(pin "38")
+				(pinfunction "GND_38")
+				(pintype "passive")
+			)
+			(node
+				(ref "A1")
+				(pin "8")
+				(pinfunction "GND_8")
+				(pintype "passive")
+			)
+			(node
+				(ref "BT2")
+				(pin "2")
+				(pinfunction "-_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C11")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "D6")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "Motor_Left_A1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Motor_Right_B1")
+				(pin "2")
+				(pinfunction "GND_2")
+				(pintype "power_in")
+			)
+			(node
+				(ref "Q1")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q2")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q3")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "Q4")
+				(pin "2")
+				(pinfunction "S_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R25")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R26")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "1")
+				(pinfunction "1_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW5")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "10")
+				(pinfunction "PGND2_10")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "18")
+				(pinfunction "GND_18")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "3")
+				(pinfunction "PGND1_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "4")
+				(pinfunction "PGND1_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "9")
+				(pinfunction "PGND2_9")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "6")
+				(pinfunction "~{E}_6")
+				(pintype "input")
+			)
+			(node
+				(ref "U4")
+				(pin "7")
+				(pinfunction "VEE_7")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U4")
+				(pin "8")
+				(pinfunction "GND_8")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "21")
+			(name "Net-(A1-GPIO14)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "19")
+				(pinfunction "GPIO14_19")
+				(pintype "bidirectional")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "22")
+			(name "Net-(A1-RUN)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "30")
+				(pinfunction "RUN_30")
+				(pintype "passive")
+			)
+			(node
+				(ref "R10")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW3")
+				(pin "2")
+				(pinfunction "2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "23")
+			(name "Net-(BT2-+)")
+			(class "Default")
+			(node
+				(ref "BT2")
+				(pin "1")
+				(pinfunction "+_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "24")
+			(name "Net-(D5-K)")
+			(class "Default")
+			(node
+				(ref "D5")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "25")
+			(name "Net-(D6-A)")
+			(class "Default")
+			(node
+				(ref "D6")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R12")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "26")
+			(name "Net-(D7-K)")
+			(class "Default")
+			(node
+				(ref "D7")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "27")
+			(name "Net-(D8-K)")
+			(class "Default")
+			(node
+				(ref "D8")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "28")
+			(name "Net-(D9-K)")
+			(class "Default")
+			(node
+				(ref "D9")
+				(pin "1")
+				(pinfunction "K_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "29")
+			(name "Net-(Motor_Left_A1-M1)")
+			(class "Default")
+			(node
+				(ref "Motor_Left_A1")
+				(pin "1")
+				(pinfunction "M1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "1")
+				(pinfunction "AO1_1")
+				(pintype "output")
+			)
+			(node
+				(ref "U2")
+				(pin "2")
+				(pinfunction "AO1_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "30")
+			(name "Net-(Motor_Left_A1-M2)")
+			(class "Default")
+			(node
+				(ref "Motor_Left_A1")
+				(pin "6")
+				(pinfunction "M2_6")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "5")
+				(pinfunction "AO2_5")
+				(pintype "output")
+			)
+			(node
+				(ref "U2")
+				(pin "6")
+				(pinfunction "AO2_6")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "31")
+			(name "Net-(Motor_Right_B1-M1)")
+			(class "Default")
+			(node
+				(ref "Motor_Right_B1")
+				(pin "1")
+				(pinfunction "M1_1")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "11")
+				(pinfunction "BO1_11")
+				(pintype "output")
+			)
+			(node
+				(ref "U2")
+				(pin "12")
+				(pinfunction "BO1_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "32")
+			(name "Net-(Motor_Right_B1-M2)")
+			(class "Default")
+			(node
+				(ref "Motor_Right_B1")
+				(pin "6")
+				(pinfunction "M2_6")
+				(pintype "input")
+			)
+			(node
+				(ref "U2")
+				(pin "7")
+				(pinfunction "BO2_7")
+				(pintype "output")
+			)
+			(node
+				(ref "U2")
+				(pin "8")
+				(pinfunction "BO2_8")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "33")
+			(name "Net-(Q1-D)")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R1")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "34")
+			(name "Net-(Q1-G)")
+			(class "Default")
+			(node
+				(ref "Q1")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R18")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R3")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "35")
+			(name "Net-(Q2-D)")
+			(class "Default")
+			(node
+				(ref "Q2")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R6")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "36")
+			(name "Net-(Q2-G)")
+			(class "Default")
+			(node
+				(ref "Q2")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R17")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R5")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "37")
+			(name "Net-(Q3-D)")
+			(class "Default")
+			(node
+				(ref "Q3")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R11")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "38")
+			(name "Net-(Q3-G)")
+			(class "Default")
+			(node
+				(ref "Q3")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R16")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R8")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "39")
+			(name "Net-(Q4-D)")
+			(class "Default")
+			(node
+				(ref "Q4")
+				(pin "3")
+				(pinfunction "D_3")
+				(pintype "passive")
+			)
+			(node
+				(ref "R15")
+				(pin "2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "40")
+			(name "Net-(Q4-G)")
+			(class "Default")
+			(node
+				(ref "Q4")
+				(pin "1")
+				(pinfunction "G_1")
+				(pintype "input")
+			)
+			(node
+				(ref "R13")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R14")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "41")
+			(name "Net-(Q5-E)")
+			(class "Default")
+			(node
+				(ref "Q5")
+				(pin "2")
+				(pinfunction "E_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R24")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "14")
+				(pinfunction "A1_14")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "42")
+			(name "Net-(Q6-E)")
+			(class "Default")
+			(node
+				(ref "Q6")
+				(pin "2")
+				(pinfunction "E_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R25")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "15")
+				(pinfunction "A2_15")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "43")
+			(name "Net-(Q7-E)")
+			(class "Default")
+			(node
+				(ref "Q7")
+				(pin "2")
+				(pinfunction "E_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R26")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "12")
+				(pinfunction "A3_12")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "44")
+			(name "Net-(Q9-E)")
+			(class "Default")
+			(node
+				(ref "Q9")
+				(pin "2")
+				(pinfunction "E_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R23")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U4")
+				(pin "13")
+				(pinfunction "A0_13")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "45")
+			(name "Net-(SW5-B)")
+			(class "Default")
+			(node
+				(ref "R12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW5")
+				(pin "2")
+				(pinfunction "B_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "46")
+			(name "VMotor")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "39")
+				(pinfunction "VSYS_39")
+				(pintype "power_in")
+			)
+			(node
+				(ref "C11")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C12")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C5")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C6")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "SW2")
+				(pin "1")
+				(pinfunction "A_1")
+				(pintype "passive")
+			)
+			(node
+				(ref "U2")
+				(pin "13")
+				(pinfunction "VM2_13")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "14")
+				(pinfunction "VM3_14")
+				(pintype "power_in")
+			)
+			(node
+				(ref "U2")
+				(pin "24")
+				(pinfunction "VM1_24")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "47")
+			(name "unconnected-(A1-3V3_EN-Pad37)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "37")
+				(pinfunction "3V3_EN_37")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "48")
+			(name "unconnected-(A1-ADC_VREF-Pad35)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "35")
+				(pinfunction "ADC_VREF_35")
+				(pintype "power_in")
+			)
+		)
+		(net
+			(code "49")
+			(name "unconnected-(A1-GPIO15-Pad20)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "20")
+				(pinfunction "GPIO15_20")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "50")
+			(name "unconnected-(A1-GPIO19-Pad25)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "25")
+				(pinfunction "GPIO19_25")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "51")
+			(name "unconnected-(A1-GPIO20-Pad26)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "26")
+				(pinfunction "GPIO20_26")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "52")
+			(name "unconnected-(A1-GPIO21-Pad27)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "27")
+				(pinfunction "GPIO21_27")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "53")
+			(name "unconnected-(A1-GPIO22-Pad29)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "29")
+				(pinfunction "GPIO22_29")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "54")
+			(name "unconnected-(A1-GPIO27_ADC1-Pad32)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "32")
+				(pinfunction "GPIO27_ADC1_32")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "55")
+			(name "unconnected-(A1-GPIO28_ADC2-Pad34)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "34")
+				(pinfunction "GPIO28_ADC2_34")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "56")
+			(name "unconnected-(A1-VBUS-Pad40)")
+			(class "Default")
+			(node
+				(ref "A1")
+				(pin "40")
+				(pinfunction "VBUS_40")
+				(pintype "power_out")
+			)
+		)
+		(net
+			(code "57")
+			(name "unconnected-(SW2-C-Pad3)")
+			(class "Default")
+			(node
+				(ref "SW2")
+				(pin "3")
+				(pinfunction "C_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "58")
+			(name "unconnected-(U4-A4-Pad1)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "1")
+				(pinfunction "A4_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "59")
+			(name "unconnected-(U4-A5-Pad5)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "5")
+				(pinfunction "A5_5")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "60")
+			(name "unconnected-(U4-A6-Pad2)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "2")
+				(pinfunction "A6_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "61")
+			(name "unconnected-(U4-A7-Pad4)")
+			(class "Default")
+			(node
+				(ref "U4")
+				(pin "4")
+				(pinfunction "A7_4")
+				(pintype "passive")
+			)
+		)
+	)
+)
