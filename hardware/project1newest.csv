@@ -1,0 +1,24 @@
+Reference,Qty,Order Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet,MPN,Manufacturer,Mouser,Polulu #item
+A1,1,1,RaspberryPi_Pico,,,,Module:RaspberryPi_Pico_Common_Unspecified,https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf,RP2040-PICO-HDR,Olimex Ltd. ,909-RP2040-PICO-HDR,
+BT2,1,1,Battery_Cell,,,,Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,,B2B-PH-K-S(LF)(SN) ,JST Commercial,306-B2BPHKSLFSNPP ,
+C5,1,3,10ÂµF,,,,Capacitor_SMD:C_0603_1608Metric,,GRM188R60J106ME47D,Murata Electronics,81-GRM188R60J106ME47,
+C6,1,3,100ÂµF,,,,Capacitor_SMD:C_0805_2012Metric,,GRM21BR60G107ME1L,Murata Electronics,81-GRM21BR60G107ME1L,
+"C10,C11,C12",3,6,100nF,,,,Capacitor_SMD:C_0603_1608Metric,,GRM188R72A104KA35D,Murata Electronics,81-GRM188R72A104KA35,
+"D1,D2,D3,D4",4,8,TSAL6102,,,,LED_THT:LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm,,TSAL6102 ,Vishay Semiconductors,78-TSAL6102,
+D6,1,1,LED,,,,LED_SMD:LED_0805_2012Metric,,604-APT1608CGCK ,Kingbright,604-APT1608CGCK ,
+"Motor_Left_A1,Motor_Right_B1",2,2,N20 DC Motor with Magnetic Encoder,,,,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,,4639,Adafruit,485-4639,
+"Q1,Q2,Q3,Q4",4,8,Q_NMOS_GSD,,,,Package_TO_SOT_SMD:SOT-23,,SI2302CDS-T1-GE3,Vishay Semiconductors,781-SI2302CDS-T1-GE3,
+"Q5,Q6,Q7,Q9",4,8,TEFT4300,,,,,,,,,
+"R1,R6,R11,R15",4,8,68,,,,Resistor_SMD:R_0805_2012Metric,,CRCW080568R0FKEA,Vishay,71-CRCW080568R0FKEA ,
+"R3,R5,R8,R14",4,8,100k,,,,Resistor_SMD:R_0805_2012Metric,,CRCW0805100KFKEAC,Vishay,71-CRCW0805100KFKEAC,
+"R9,R10",2,6,10k,,,,Resistor_SMD:R_0805_2012Metric,,CRCW080510K0FKEAC,Vishay,71-CRCW080510K0FKEAC,
+R12,1,3,220,,,,Resistor_SMD:R_0805_2012Metric,,CRCW0805220RFKEAC,Vishay,71-CRCW0805220RFKEAC,
+"R13,R16,R17,R18",4,8,100,,,,Resistor_SMD:R_0805_2012Metric,,CRCW0805100RFKEAC,Vishay,71-CRCW0805100RFKEAC,
+"R23,R24,R25,R26",4,8,1k8,,,,Resistor_SMD:R_0805_2012Metric,,CRCW08051K80FKEAC,Vishay,71-CRCW08051K80FKEAC,
+"SW2,SW5",2,3,SW_SPDT,,,,Button_Switch_SMD:SW_SPDT_CK_JS102011SAQN,,JS102011SAQN,C&K,611-JS102011SAQN ,
+SW3,1,2,SW_Push,,,,Button_Switch_THT:SW_PUSH_6mm,,TL1105SPF160Q,E-Switch ,612-TL1105SP,
+U2,1,1,TB6612FNG,,,,Package_SO:SSOP-24_5.3x8.2mm_P0.65mm,https://toshiba.semicon-storage.com/us/product/linear/motordriver/detail.TB6612FNG.html,"TB6612FNG,C,8,EL",Toshiba,757-TB6612FNGC8EL,
+U4,1,1,CD74HC4051M,,,,Package_SO:SOIC-16_4.55x10.3mm_P1.27mm,http://www.ti.com/lit/ds/symlink/cd74hc4051.pdf,CD74HC4051M96,Texas Instruments,595-CD74HC4051M96,
+Brackets za motore par,2,3,,,,,,https://www.pololu.com/product/989/specs#lightbox-picture0J771;main-pictures,,,,989
+Kotaèi par (32x7mm),1,2,,,,,,,,,,1088
+kuglica (10mm = 0.375 in),2,4,,,,,,https://www.pololu.com/file/0J1636/pololu-ball-caster-with-0-375in-ball.pdf,,,,950
