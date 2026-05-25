@@ -19,7 +19,7 @@ mux_s = [
 # ADC za čitanje MUX izlaza
 adc = ADC(Pin(26))  # IRT_READ
 
-PRAG = 30000  # podesi eksperimentalno (0-65535) - vrijednost iznad koje se smatra da je prepreka detektirana
+PRAG = 4000  # podesi eksperimentalno (0-65535) - vrijednost iznad koje se smatra da je prepreka detektirana
 
 def mux_odaberi(kanal):
     # kanal 0-3 za 4 fototranzistora

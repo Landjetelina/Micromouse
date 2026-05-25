@@ -19,6 +19,7 @@ mux_s = [
 # ADC za čitanje MUX izlaza
 adc = ADC(Pin(26))  # IRT_READ
 
+#IMPORTANT - NA SHEMI I NA PCBU SU ZAMJENJENI MOTORI, LEFT TREBA BITI RIGH I OBRNUTA PA AKO NE VALJA DESNI MOTOR, TO JE ONDA LEFT (NAPISANO NA PLOČICI)
 # Motor driver
 left_motor_1  = Pin(4, Pin.OUT)
 left_motor_2  = Pin(5, Pin.OUT)
@@ -27,10 +28,10 @@ right_motor_2 = Pin(7, Pin.OUT)
 
 speed_left  = PWM(Pin(8))
 speed_right = PWM(Pin(9))
-speed_left.freq(1000)           # frekvencija PWM signala (1 kHz je dobar izbor za motore)
-speed_right.freq(1000)          # jer prevelika frekvencija može uzrokovati pregrijavanje motora, a premala može uzrokovati zujanje i neefikasno upravljanje brzinom
+speed_left.freq(500)           # frekvencija PWM signala (1 kHz je dobar izbor za motore)
+speed_right.freq(500)          # jer prevelika frekvencija može uzrokovati pregrijavanje motora, a premala može uzrokovati zujanje i neefikasno upravljanje brzinom
 
-PRAG = 30000  # podesi eksperimentalno (0-65535) - vrijednost iznad koje se smatra da je prepreka detektirana
+PRAG = 4000  # podesi eksperimentalno (0-65535) - vrijednost iznad koje se smatra da je prepreka detektirana
 
 def mux_odaberi(kanal):
     # kanal 0-3 za 4 fototranzistora
@@ -44,14 +45,13 @@ def citaj_senzor(kanal):
     return adc.read_u16()       # to je fototranz na gpio26, koji je povezan na MUX izlaz
 
 #100 000 ne postoji — duty_u16 je 16-bitni, maksimum je 65535. Sve iznad toga se "wraparound" ili baca grešku, ne daje više brzine
-def motori_naprijed(brzina=65535):
-    left_motor_1.value(0)  
-    left_motor_2.value(1)
-      
-    right_motor_1.value(1)
-    right_motor_2.value(0)
-    speed_left.duty_u16(brzina)
-    speed_right.duty_u16(brzina)
+def motori_naprijed(brzina=45535):
+    left_motor_1.value(1)  
+    left_motor_2.value(0)
+    right_motor_1.value(0)
+    right_motor_2.value(1)
+    speed_left.duty_u16(int(brzina * 1)) 
+    speed_right.duty_u16(int(brzina * 1.015)) #Treba biti mrvu brži da bi išao ravno
 
 def motori_stop():
     left_motor_1.value(0); left_motor_2.value(0)
