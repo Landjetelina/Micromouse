@@ -10,7 +10,8 @@ Tu spremati relevantne kodove
 `robot.py` - nalazi se OOP klasa koja poziva funkcije unutar datoteka `izvedba.py` i `utility.py`, sprema dobivene vrijednosti u strukture podataka, čuva globalne varijable...  
 
 
-Klasa Robot bi se trebala instancirati izvana, npr. unutar datoteke main.py <br>
-Prije pokretanja koda mora se pritisnuti na folder Micromouse pa `Upload project to Pico` ili odabrati file koji se izmijenio i kliknuti `Upload file to Pico` <br>
+Klasa Robot bi se trebala instancirati izvana, npr. unutar datoteke main.py. <br>
+Prije pokretanja koda mora se pritisnuti na folder Micromouse pa `Upload project to Pico` ili odabrati file koji se izmijenio i kliknuti `Upload file to Pico`. <br>
+Dodana mapa `lib` jer navodno Picu pomaže u interpretaciji putanja i rješava import probleme među datotekama.
 
 ### Nije još dodana nova funkcionalnost, samo se promijenila organizacija koda
