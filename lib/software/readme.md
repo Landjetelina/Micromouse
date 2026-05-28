@@ -11,6 +11,6 @@ Tu spremati relevantne kodove
 
 
 Klasa Robot bi se trebala instancirati izvana, npr. unutar datoteke main.py <br>
-Prije pokretanja koda mora se pritisnuti na folder Micromouse pa Upload project to Pico` ili odabrati file koji se izmijenio i kliknuti `Upload file to Pico` <br>
+Prije pokretanja koda mora se pritisnuti na folder Micromouse pa `Upload project to Pico` ili odabrati file koji se izmijenio i kliknuti `Upload file to Pico` <br>
 
 ### Nije još dodana nova funkcionalnost, samo se promijenila organizacija koda
