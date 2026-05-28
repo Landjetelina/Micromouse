@@ -6,7 +6,7 @@ import machine
 
 import time
 from lib.software.robot import Robot
-from tests import *
+import tests 
 
 
 # Ovdje pozvati primjer iz tests.py
@@ -14,5 +14,5 @@ from tests import *
 if __name__ == "__main__":
     robot = Robot()
     n, kanal = 50, 0
-    # kalibriraj_senzor(robot, kanal, n)
-    samo_senzori(robot)
+    tests.motori_fwd(robot)
+    # tests.kalibriraj_senzor(robot, kanal, n)

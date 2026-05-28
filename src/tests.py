@@ -63,7 +63,7 @@ def samo_senzori(robot, PRAG=PRAG):
 
 def kalibriraj_senzor(robot, kanal, n=10):
     while True:
-        mjerenje = utility.citaj_prosjek_n_mjeranja_senzora(kanal, n)
+        mjerenje = utility.citaj_prosjek_n_mjeranja_senzora(robot, kanal, n=n)
         print(f"Senzor {kanal}: {mjerenje}")
         time.sleep(0.1)
         dist = utility.dist_to_wall(mjerenje, kanal)

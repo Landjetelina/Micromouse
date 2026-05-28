@@ -42,7 +42,7 @@ class Robot:
         return utility.dist_to_wall(mjerenje, kanal)
     
     # Izvedba
-    def motori_naprijed(self, brzina):
+    def motori_naprijed(self, brzina=65535):
         izvedba.motori_naprijed(self, brzina)
     def motori_stop(self):
         izvedba.motori_stop(self)
