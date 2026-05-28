@@ -2268,7 +2268,7 @@
 			(size 1.9 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/Left_motor_1")
+			(net "/l_motor1")
 			(pinfunction "AIN1_21")
 			(pintype "input")
 			(uuid "d4457216-c75e-4122-a38c-7cb3d3d8ab8e")
@@ -7466,7 +7466,7 @@
 			(size 3.2 1.6)
 			(layers "F.Cu" "F.Mask")
 			(roundrect_rratio 0.5)
-			(net "/Left_motor_1")
+			(net "/l_motor1")
 			(pinfunction "GPIO4_6")
 			(pintype "bidirectional")
 			(uuid "28fe23ac-2f25-4825-b3ac-e11ad319297d")
@@ -7477,7 +7477,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "/Left_motor_1")
+			(net "/l_motor1")
 			(pinfunction "GPIO4_6")
 			(pintype "bidirectional")
 			(uuid "0a8c83ab-0358-46ce-8a9a-b89e93dd08c2")
@@ -21858,7 +21858,7 @@
 		(end 137.48099 101.585)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "0532c4c8-fc39-48b9-b205-b53a65331552")
 	)
 	(segment
@@ -21866,7 +21866,7 @@
 		(end 138.475 141.935)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "09bf08e8-07ce-4336-ad00-778a39cdd221")
 	)
 	(segment
@@ -21874,7 +21874,7 @@
 		(end 139.98419 99.0818)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "0b472b86-b8e7-45de-a584-a2d7f66d1201")
 	)
 	(segment
@@ -21882,7 +21882,7 @@
 		(end 151.345 123.979324)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "0bfdb69b-fff0-4fa1-b95f-358c107a8232")
 	)
 	(segment
@@ -21890,7 +21890,7 @@
 		(end 130.818812 61.16)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "0fa3f393-a663-45a5-8afd-5b059f46d55d")
 	)
 	(segment
@@ -21898,7 +21898,7 @@
 		(end 134.09 113.435991)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "2df92799-d209-4b87-b645-ad609b8d7b1b")
 	)
 	(segment
@@ -21906,7 +21906,7 @@
 		(end 145.265 78.19)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "35679036-7cfc-4569-9ba0-f96f5eef0a22")
 	)
 	(segment
@@ -21914,7 +21914,7 @@
 		(end 150.550676 123.185)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "36ace8b2-6d99-42f6-838f-636807af869d")
 	)
 	(segment
@@ -21922,7 +21922,7 @@
 		(end 151.345 126.440676)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "37e2cb72-3608-45c4-a3e7-093fa1f29198")
 	)
 	(segment
@@ -21930,7 +21930,7 @@
 		(end 147.872116 123.185)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "648784b6-dc9b-4934-9b62-428879c66b7d")
 	)
 	(segment
@@ -21938,7 +21938,7 @@
 		(end 139.98419 96.125)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "6d2744a2-7b38-465d-976f-babb0cd54d7f")
 	)
 	(segment
@@ -21946,7 +21946,7 @@
 		(end 143.50581 94.085)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "70d91c19-9f96-4d25-8279-1de5f79ec37d")
 	)
 	(segment
@@ -21954,7 +21954,7 @@
 		(end 143.19428 130.585)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "7e8de0bc-9952-4816-99fe-a56b404151ba")
 	)
 	(segment
@@ -21962,7 +21962,7 @@
 		(end 138.445 125.83572)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "8f6de66f-0265-4ef6-91cb-6ff8adbc7fec")
 	)
 	(segment
@@ -21970,7 +21970,7 @@
 		(end 134.949009 101.585)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "921ef27a-f210-4267-894d-09f695f54874")
 	)
 	(segment
@@ -21978,7 +21978,7 @@
 		(end 142.02419 94.085)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "9221c8e5-822b-4de7-92d7-e62870ca643d")
 	)
 	(segment
@@ -21986,7 +21986,7 @@
 		(end 143.865 79.59)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "941d7121-e1f7-46c2-8759-746499cf163c")
 	)
 	(segment
@@ -21994,7 +21994,7 @@
 		(end 151.115 126.670676)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "99e55a8a-655f-4838-92e4-c9f98f2342eb")
 	)
 	(segment
@@ -22002,7 +22002,7 @@
 		(end 131.543812 60.435)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "9c36c651-f706-49fe-b43b-234824200cf6")
 	)
 	(segment
@@ -22010,7 +22010,7 @@
 		(end 143.865 93.72581)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "a67c9b2d-bbc2-4c5f-81ca-2ad4c8499df8")
 	)
 	(segment
@@ -22018,7 +22018,7 @@
 		(end 138.615 141.795)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "aa30c82c-893a-4701-af9d-a4cb37efef7c")
 	)
 	(segment
@@ -22026,7 +22026,7 @@
 		(end 134.949009 141.935)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "ad9eee54-803e-4b05-96ea-6c187bdcb6ea")
 	)
 	(segment
@@ -22034,7 +22034,7 @@
 		(end 151.115 128.88)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "ae1f58f2-e883-4ab6-8a68-d9fdfaa1f991")
 	)
 	(segment
@@ -22042,7 +22042,7 @@
 		(end 146.705 124.352116)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "b001daba-5886-4971-8852-145c90e9343e")
 	)
 	(segment
@@ -22050,7 +22050,7 @@
 		(end 137.51 60.435)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "b1be0cdc-eff4-4676-9d4a-55df03fa92a5")
 	)
 	(segment
@@ -22058,7 +22058,7 @@
 		(end 146.705 127.07428)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "bc2064f3-6dc2-447d-bd45-2a649f6eaa97")
 	)
 	(segment
@@ -22066,7 +22066,7 @@
 		(end 134.135 140.53)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "c8ccfc97-e991-41f6-a528-df72da353658")
 	)
 	(segment
@@ -22074,7 +22074,7 @@
 		(end 145.265 68.19)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "d50da598-2ae5-473e-9548-68b39e58562e")
 	)
 	(segment
@@ -22082,7 +22082,7 @@
 		(end 134.135 121.76)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "d7883a86-803e-47c2-a5b5-6cce751133ee")
 	)
 	(segment
@@ -22090,7 +22090,7 @@
 		(end 137.34099 114.145)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "e7597e09-cb13-4c07-b35f-196cc2e39530")
 	)
 	(segment
@@ -22098,7 +22098,7 @@
 		(end 134.799009 114.145)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "ede87486-85cd-43fb-9b9f-6daf9e5209db")
 	)
 	(segment
@@ -22106,7 +22106,7 @@
 		(end 134.135 141.12099)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "f0f3a0d1-1627-4b5b-86b5-48b9a97699ce")
 	)
 	(segment
@@ -22114,7 +22114,7 @@
 		(end 134.09 102.444009)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "f220b74f-8b3a-4575-92ad-eccab3297da2")
 	)
 	(segment
@@ -22122,7 +22122,7 @@
 		(end 134.135 141.13099)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "f4aa506c-d587-46b4-ad8d-d202ff898af3")
 	)
 	(segment
@@ -22130,7 +22130,7 @@
 		(end 138.445 115.24901)
 		(width 0.25)
 		(layer "F.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "f7ebe922-02c3-4c6c-81c5-a94e5c6c9a90")
 	)
 	(via
@@ -22138,7 +22138,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "1fe2985c-4031-4e3c-a3de-6b885ee58bb7")
 	)
 	(via
@@ -22146,7 +22146,7 @@
 		(size 0.5)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "8720c907-9326-4904-b754-36ed2e9ca68d")
 	)
 	(segment
@@ -22154,7 +22154,7 @@
 		(end 151.115 130.13)
 		(width 0.25)
 		(layer "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "072958bb-ad30-4b42-8a96-eccebd59b41e")
 	)
 	(segment
@@ -22162,7 +22162,7 @@
 		(end 146.865 132.88)
 		(width 0.25)
 		(layer "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "23be9ae7-fcb5-41fa-b161-044dab604e47")
 	)
 	(segment
@@ -22170,7 +22170,7 @@
 		(end 138.615 141.795)
 		(width 0.25)
 		(layer "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "29fa67b1-48ae-4095-bb2f-4a99b7923c9a")
 	)
 	(segment
@@ -22178,7 +22178,7 @@
 		(end 141.215 135.93)
 		(width 0.25)
 		(layer "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "3138b809-aaea-4619-a865-633fbb27b122")
 	)
 	(segment
@@ -22186,7 +22186,7 @@
 		(end 149.355 131.89)
 		(width 0.25)
 		(layer "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "4cc7073f-3763-4faf-93e1-7f9d88a0582d")
 	)
 	(segment
@@ -22194,7 +22194,7 @@
 		(end 148.81 132.435)
 		(width 0.25)
 		(layer "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "5205ed5c-090a-45b7-8c26-0caed6899d90")
 	)
 	(segment
@@ -22202,7 +22202,7 @@
 		(end 149.355 132.010305)
 		(width 0.25)
 		(layer "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "5bb9d4e0-59da-4081-9ce8-a062dd3e19e2")
 	)
 	(segment
@@ -22210,7 +22210,7 @@
 		(end 145.315 134.43)
 		(width 0.25)
 		(layer "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "7164ffc3-0a26-418f-9460-68d276a34333")
 	)
 	(segment
@@ -22218,7 +22218,7 @@
 		(end 148.365 132.88)
 		(width 0.25)
 		(layer "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "89e4f50f-4f8f-41d6-819c-25322b558f82")
 	)
 	(segment
@@ -22226,7 +22226,7 @@
 		(end 139.45 141.795)
 		(width 0.25)
 		(layer "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "abca1471-bbf5-495f-9df7-3da696517c87")
 	)
 	(segment
@@ -22234,7 +22234,7 @@
 		(end 148.930305 132.435)
 		(width 0.25)
 		(layer "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "b8ecfce2-9620-435b-9186-31b6ddeab2f9")
 	)
 	(segment
@@ -22242,7 +22242,7 @@
 		(end 145.315 135.93)
 		(width 0.25)
 		(layer "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "c8732f64-0a28-4fdf-a199-03d08b9c2ab7")
 	)
 	(segment
@@ -22250,7 +22250,7 @@
 		(end 139.45 137.695)
 		(width 0.25)
 		(layer "B.Cu")
-		(net "/Left_motor_1")
+		(net "/l_motor1")
 		(uuid "cab29ba6-92ab-40f8-af2a-83adf8ec3c9c")
 	)
 	(segment

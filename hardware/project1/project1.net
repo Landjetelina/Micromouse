@@ -4585,7 +4585,7 @@
 		)
 		(net
 			(code "11")
-			(name "/Left_motor_1")
+			(name "/l_motor1")
 			(class "Default")
 			(node
 				(ref "A1")

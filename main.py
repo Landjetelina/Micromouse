@@ -1,13 +1,15 @@
-from machine import ADC
+import os
+print(os.listdir())
+
+from machine import Pin, PWM, ADC
 import time
-from test import *
+from Micromouse.lib.software.robot import Robot
+from tests import *
 
 
+# Ovdje pozvati primjer iz tests.py
 
-sensor = ADC(26)
+if __name__ == "__main__":
+    robot = Robot()
 
-while True:
-    print(sensor.read_u16())
-    time.sleep(0.1)
-
-# test()
+    samo_senzori(robot)

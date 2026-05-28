@@ -6256,7 +6256,7 @@
 		)
 		(uuid "42f729f2-1d64-4d4d-8dc4-280e6857b221")
 	)
-	(label "Left_motor_1"
+	(label "l_motor1"
 		(at 273.05 64.77 0)
 		(effects
 			(font
@@ -6526,7 +6526,7 @@
 		)
 		(uuid "cf63c60c-665c-417c-8d85-a0710a57562e")
 	)
-	(label "Left_motor_1"
+	(label "l_motor1"
 		(at 199.39 187.96 0)
 		(effects
 			(font

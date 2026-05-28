@@ -21,7 +21,7 @@ Autonomous maze-solving robot based on Raspberry Pi Pico.
 | GPIO1   | IR_left-right   | IR LED emitter - left-center 
 | GPIO2   | IR_right-left   | IR LED emitter - right-center 
 | GPIO3   | IR_right        | IR LED emitter - right 
-| GPIO4   | Left_motor_1    | Motor driver AIN1 
+| GPIO4   | l_motor1    | Motor driver AIN1 
 | GPIO5   | Left_motor_2    | Motor driver AIN2
 | GPIO6   | Right_motor_1   | Motor driver BIN1 
 | GPIO7   | Right_motor_2   | Motor driver BIN2 
