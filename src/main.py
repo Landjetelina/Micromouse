@@ -13,6 +13,5 @@ import tests
 
 if __name__ == "__main__":
     robot = Robot()
-    n, kanal = 50, 0
-    tests.motori_fwd(robot)
-    # tests.kalibriraj_senzor(robot, kanal, n)
+    n, kanal, snaga = 50, 1, 65535
+    tests.kalibriraj_senzor(robot, kanal, n)

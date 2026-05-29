@@ -1,6 +1,6 @@
 from machine import Pin, PWM, ADC
 import time
-
+import lib.software.ir_lookup_table as ir_lookup_table
 
 def mux_odaberi(robot, kanal):
         # kanal 0-3 za 4 fototranzistora
@@ -42,10 +42,23 @@ def citaj_prosjek_n_mjeranja_senzora(robot, kanal, n=10):
     return suma / n               
 
 
-# kalibrira senzore i vraća udaljenost u cm koju mjeri senzor do zida
+# Vraća udaljenost u cm koju mjeri senzor do zida
 def dist_to_wall(mjerenje, kanal):
-    dist = None
-    if kanal == 0:
-         if mjerenje > 22700:
-            dist = 0.1
-    return dist
+    values_list = ir_lookup_table.lookup_table[kanal]
+    
+    # Zid je bliže od 1.5cm
+    if mjerenje > values_list[0][0]:
+        return 1.5
+    # Zid je dalje od 5cm
+    if mjerenje < values_list[-1][0]:
+        return None  # nema zida u blizini
+    
+    for i in range(len(values_list)-1): # zadnjeg ne treba provjeravati
+        signal1, _ = values_list[i]
+        signal2, udalj2 = values_list[i+1]
+        if mjerenje < signal1 and mjerenje > signal2:
+            return udalj2
+        
+    raise Exception("Mjerni signal nije u rasponu! Ne može se pretvoriti u cm")
+    
+

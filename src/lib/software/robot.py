@@ -8,6 +8,7 @@ class Robot:
     def __init__(self) -> None:
 
         SPEED_FREQ = 1000  # frekvencija PWM signala (1 kHz je dobar izbor za motore)
+        
 
         # postavlja IR LED za OUT
         self.ir_led = utility.ir_led_ctrl()  
@@ -42,8 +43,8 @@ class Robot:
         return utility.dist_to_wall(mjerenje, kanal)
     
     # Izvedba
-    def motori_naprijed(self, brzina=65535):
-        izvedba.motori_naprijed(self, brzina)
+    def motori_naprijed(self, snaga=65535):
+        izvedba.motori_naprijed(self, snaga)
     def motori_stop(self):
         izvedba.motori_stop(self)
     
