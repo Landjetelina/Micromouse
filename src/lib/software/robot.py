@@ -1,5 +1,6 @@
 from machine import Pin, PWM, ADC
 import time
+from lib.software.pid import PID
 
 import lib.software.utility as utility
 import lib.software.izvedba as izvedba
@@ -17,7 +18,7 @@ class Robot:
         self.mux_s = utility.mux_s_ctrl() 
 
         self.adc = ADC(Pin(26))  # IRT_READ, čita podatke s IR senzora
-        
+
         # Motor driveri
         self.l_motor1, self.l_motor2 = Pin(4, Pin.OUT), Pin(5, Pin.OUT)
         self.r_motor1, self.r_motor2 = Pin(6, Pin.OUT), Pin(7, Pin.OUT)
@@ -27,6 +28,8 @@ class Robot:
         # prevelika frekvencija može uzrokovati pregrijavanje motora, a premala može uzrokovati zujanje i neefikasno upravljanje brzinom
         self.l_speed.freq(SPEED_FREQ)  
         self.r_speed.freq(SPEED_FREQ)  
+
+        self.pid = PID(Kp=2500, Ki=0.0, Kd=100, dt=0.05)   # PID regulator, ovdje se mogu podesiti njegovi parametri  
 
 
     # Utility
@@ -70,7 +73,9 @@ class Robot:
     
     def skreni_ulijevo(self):
         izvedba.skreni_ulijevo(self)
-    
+
+    def motori_fwd_pid(self):
+        return izvedba.motori_fwd_pid(self)
 
     
     

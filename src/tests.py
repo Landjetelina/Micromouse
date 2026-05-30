@@ -2,6 +2,8 @@ from machine import Pin, PWM, ADC
 import time
 import lib.software.utility as utility
 # from Micromouse.lib.software.robot import Robot
+from lib.software.pid import PID
+
 
 # Definirani svi primjeri testiranja, potrebno primjer pozvati iz main.py
 
@@ -9,18 +11,6 @@ PRAG = 2
 
 def hello_world():
     print("Pico kaže hello world! :)")
-
-def motori_fwd(robot, brzina=65535, PRAG=PRAG):
-    # PRAG je udaljenost ispod koje robot staje (1.5-10cm)
-
-    ocitanja = robot.ispisi_dist(datoteka=False)
-    prepreka = any((ocit and ocit <= PRAG) for ocit in ocitanja)
-    # prepreka = None
-    if prepreka:
-        robot.motori_stop()
-    else:
-        robot.motori_naprijed(brzina)
-
      
 
 def jedan_senzor(robot, kanal, PRAG=PRAG):
@@ -47,7 +37,6 @@ def jedan_senzor(robot, kanal, PRAG=PRAG):
         time.sleep(0.1)
         
     
-
 def kalibriraj_senzor(robot, kanal, n=10):
     while True:
         mjerenje = utility.citaj_prosjek_n_mjeranja_senzora(robot, kanal, n=n)
@@ -56,6 +45,7 @@ def kalibriraj_senzor(robot, kanal, n=10):
         print(f"Udaljenost do prepreke: {udalj}cm")
         time.sleep(0.25)
 
+# Ne daje točne koordinate, nesto nije dobro
 def ispisi_koord(robot):
     while True:
         koord_prepreka = robot.koord_svi_senzori()

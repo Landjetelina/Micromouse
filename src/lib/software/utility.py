@@ -4,6 +4,7 @@ import lib.software.konstante as konst
 import math
 import os
 
+
 def mux_odaberi(robot, kanal):
         # kanal 0-3 za 4 fototranzistora
         robot.mux_s[0].value((kanal >> 0) & 1) # niži bit

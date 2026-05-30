@@ -18,9 +18,12 @@ if __name__ == "__main__":
     duration, delay = 5, 0.05
     open("ocitanja.txt", "w").close()  # prazni datoteku
     
-    for _ in range(int(duration / delay)):
-        tests.motori_fwd(robot)
-        robot.skreni_ulijevo()
-        print(robot.ispisi_dist(datoteka=True))
-        time.sleep(delay)
-    
+    try:
+        # for _ in range(int(duration / delay)):
+        while True:
+            robot.motori_fwd_pid()
+            # robot.skreni_ulijevo()
+            # print(robot.ispisi_dist(datoteka=True))
+    finally:
+        robot.motori_stop()
+
