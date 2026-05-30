@@ -68,9 +68,8 @@ class Robot:
     def motori_stop(self):
         izvedba.motori_stop(self)
     
-    def skreni_ulijevo(self):
-        izvedba.skreni_ulijevo(self)
-    
+    def navigiraj(self, snaga=65535, koraci=0, otvoreno_brojac=0):
+        return izvedba.navigiraj(self, snaga, koraci, otvoreno_brojac)
 
     
     
