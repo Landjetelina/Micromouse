@@ -49,17 +49,7 @@ def jedan_senzor(robot, kanal, PRAG=PRAG):
         print(f"Kanal {kanal}: {vrijednost} | {'PREPREKA' if prepreka else 'OK'}")
         time.sleep(0.1)
         
-def samo_senzori(robot, PRAG=PRAG):
-    while True:
-        ocitanja = [robot.citaj_senzor(k) for k in range(4)]
-        prepreka = any(v > PRAG for v in ocitanja)
-
-        print(f"Senzori: {ocitanja} | {'STOP' if prepreka else 'OK'}")
-
-        if prepreka:
-            print("Prepreka detektirana!")
-
-        time.sleep(0.05) 
+    
 
 def kalibriraj_senzor(robot, kanal, n=10):
     while True:
@@ -67,4 +57,12 @@ def kalibriraj_senzor(robot, kanal, n=10):
         print(f"Senzor {kanal}: {mjerenje}")
         udalj = utility.dist_to_wall(mjerenje, kanal)
         print(f"Udaljenost do prepreke: {udalj}cm")
-        time.sleep(0.2)
+        time.sleep(0.25)
+
+def ispisi_koord(robot):
+    while True:
+        koord_prepreka = robot.koord_svi_senzori()
+        print("[" + ", ".join(
+                "None" if prepreka is None else f"({prepreka[0]:.2f}, {prepreka[1]:.2f})"
+                for prepreka in koord_prepreka) + "]")
+        time.sleep(0.3)

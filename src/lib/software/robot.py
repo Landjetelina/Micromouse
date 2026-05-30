@@ -31,20 +31,36 @@ class Robot:
     # Utility
     def mux_odaberi(self, kanal):
         utility.mux_odaberi(self, kanal)
+
     def citaj_senzor(self, kanal):
         return utility.citaj_senzor(self, kanal)
+
     def ir_led_ctrl(self):
         return utility.ir_led_ctrl()
+
     def mux_s_ctrl(self):
         return utility.mux_s_ctrl()
+
     def citaj_prosjek_n_mjeranja_senzora(self, kanal, n=10):
         return utility.citaj_prosjek_n_mjeranja_senzora(self, kanal, n)
+
     def dist_to_wall(self, mjerenje, kanal):
         return utility.dist_to_wall(mjerenje, kanal)
+    
+    def dist_to_coord(self, mjerenja):
+        return utility.dist_to_coord(mjerenja)
+    
+    def koord_svi_senzori(self):
+        return utility.koord_svi_senzori(self)
+    
+    def ispisi_dist(self):
+        return utility.ispisi_dist(self)
+ 
     
     # Izvedba
     def motori_naprijed(self, snaga=65535):
         izvedba.motori_naprijed(self, snaga)
+
     def motori_stop(self):
         izvedba.motori_stop(self)
     

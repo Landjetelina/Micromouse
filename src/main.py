@@ -1,5 +1,4 @@
 import os
-print(os.listdir())
 
 import machine
 # machine.reset()
@@ -13,5 +12,8 @@ import tests
 
 if __name__ == "__main__":
     robot = Robot()
-    n, kanal, snaga = 50, 1, 65535
-    tests.kalibriraj_senzor(robot, kanal, n)
+    n, kanal, snaga = 50, 3, 65535
+    while True:
+        robot.ispisi_dist()
+        time.sleep(0.3)
+
