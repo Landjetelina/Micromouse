@@ -5,26 +5,23 @@ import lib.software.utility as utility
 
 # Definirani svi primjeri testiranja, potrebno primjer pozvati iz main.py
 
-PRAG = 5000
+PRAG = 2
 
 def hello_world():
     print("Pico kaže hello world! :)")
 
-def motori_fwd(robot, brzina, PRAG=PRAG):
-    # PRAG podesi eksperimentalno (0-65535) - vrijednost iznad koje se smatra da je prepreka detektirana
+def motori_fwd(robot, brzina=65535, PRAG=PRAG):
+    # PRAG je udaljenost ispod koje robot staje (1.5-10cm)
 
-    while True:
-        ocitanja = [robot.citaj_senzor(k) for k in range(4)]
-        prepreka = any(v > PRAG for v in ocitanja)
+    ocitanja = robot.ispisi_dist(datoteka=False)
+    prepreka = any((ocit and ocit <= PRAG) for ocit in ocitanja)
+    # prepreka = None
+    if prepreka:
+        robot.motori_stop()
+    else:
+        robot.motori_naprijed(brzina)
 
-        print(f"Senzori: {ocitanja} | {'STOP' if prepreka else 'OK'}")
-
-        if prepreka:
-            robot.motori_stop()
-        else:
-            robot.motori_naprijed(brzina)
-
-        time.sleep(0.05)  
+     
 
 def jedan_senzor(robot, kanal, PRAG=PRAG):
     

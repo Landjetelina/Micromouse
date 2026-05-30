@@ -3,7 +3,7 @@ import math
 # senzori 0 i 1 imaju negativne x-eve jer su na lijevoj strani
 # sin(-x) = -sin(x), cos(-x) = cos(x), pa ne moramo dodavati minus u računu dalje
 # alpha = [-56.45, -27.45, 58.79, 23.07] # vrijednost u stupnjevima, računato sa skice
-alpha = [33.5-90, 61-90, 68, 90-31]  # izmjereno kutomjerom
+alpha = [-56.5, -29, 68, 59]  # izmjereno kutomjerom
 alpha = [math.radians(x) for x in alpha] # pretvara u radijane
 d_cntr_trans = [6.7, 8.2, 6.5, 8.7]  # udaljenost od centra PCB-a do vrha tranzistora u cm, osim za tranzistor 1!
  

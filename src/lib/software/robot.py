@@ -28,6 +28,7 @@ class Robot:
         self.l_speed.freq(SPEED_FREQ)  
         self.r_speed.freq(SPEED_FREQ)  
 
+
     # Utility
     def mux_odaberi(self, kanal):
         utility.mux_odaberi(self, kanal)
@@ -53,8 +54,11 @@ class Robot:
     def koord_svi_senzori(self):
         return utility.koord_svi_senzori(self)
     
-    def ispisi_dist(self):
-        return utility.ispisi_dist(self)
+    def ispisi_dist(self, datoteka=False):
+        return utility.ispisi_dist(self, datoteka)
+    
+    def read_from_ocitanja_txt(self):
+        return utility.read_from_ocitanja_txt()
  
     
     # Izvedba
@@ -63,6 +67,9 @@ class Robot:
 
     def motori_stop(self):
         izvedba.motori_stop(self)
+    
+    def skreni_ulijevo(self):
+        izvedba.skreni_ulijevo(self)
     
 
     

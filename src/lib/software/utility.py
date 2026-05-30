@@ -2,6 +2,7 @@ from machine import Pin, PWM, ADC
 import time
 import lib.software.konstante as konst
 import math
+import os
 
 def mux_odaberi(robot, kanal):
         # kanal 0-3 za 4 fototranzistora
@@ -82,8 +83,17 @@ def koord_svi_senzori(robot):
     koord_prepreka = dist_to_coord(mjerenja)
     return koord_prepreka 
 
-def ispisi_dist(robot):
+def ispisi_dist(robot, datoteka=False):
     ocitanja = [robot.dist_to_wall(robot.citaj_senzor(k), k) for k in range(4)]
-    print(f"Senzori: {ocitanja}cm")
+    
+    if not datoteka:
+        print(f"Senzori:{ocitanja}cm")
+    else:
+        with open("ocitanja.txt", "a") as file:
+            file.write(f"Senzori:{ocitanja}cm\n")
     return ocitanja   
 
+def read_from_ocitanja_txt():
+    with open("ocitanja.txt", "r") as file:
+        rez = file.read()
+        return rez
